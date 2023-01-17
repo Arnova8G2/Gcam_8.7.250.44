@@ -1441,6 +1441,10 @@
     .line 46
     invoke-virtual {v1, v3}, Ljki;->c(Ljqe;)V
 
+    sget-object v0, Lfmm;->c:Landroid/hardware/camera2/CaptureRequest$Key;
+
+    if-eqz v0, :cond_4
+	
     .line 47
     sget-object v0, Lfmm;->c:Landroid/hardware/camera2/CaptureRequest$Key;
 

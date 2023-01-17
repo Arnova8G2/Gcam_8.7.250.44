@@ -1357,6 +1357,10 @@
 
     if-eqz v7, :cond_f
 
+    sget-object v8, Lfmm;->d:Landroid/hardware/camera2/CaptureResult$Key;
+
+    if-eqz v8, :cond_f
+    
     .line 68
     sget-object v8, Lfmm;->d:Landroid/hardware/camera2/CaptureResult$Key;
 

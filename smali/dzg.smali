@@ -580,6 +580,10 @@
 
     if-eqz v0, :cond_0
 
+    sget-object v0, Lilu;->a:Landroid/hardware/camera2/CaptureRequest$Key;
+
+    if-eqz v0, :cond_0
+
     .line 56
     sget-object v0, Lilu;->a:Landroid/hardware/camera2/CaptureRequest$Key;
 
