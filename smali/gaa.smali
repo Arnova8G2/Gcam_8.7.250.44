@@ -1157,28 +1157,6 @@
 .method public m(I)V
     .locals 5
 
-    const v0, 0x2
-
-    new-array v2, v0, [Ljava/lang/Object;
-
-    const v0, 0x0
-
-    aput-object p0, v2, v0
-
-    invoke-static/range {p1 .. p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
-
-    move-result-object v1
-
-    const v0, 0x1
-
-    aput-object v1, v2, v0
-
-    const-string/jumbo v1, "AsrK7c82c3wauGlA"
-
-    invoke-static {v1, v2}, Lcom/pairip/VMRunner;->invoke(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object v1
-
     return-void
 .end method
 

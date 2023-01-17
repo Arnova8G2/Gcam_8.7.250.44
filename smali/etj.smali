@@ -15,7 +15,7 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    invoke-static {}, Lcom/pairip/StartupLauncher;->launch()V
+    #invoke-static {}, Lcom/pairip/StartupLauncher;->launch()V
 
     .line 1
     invoke-static {}, Landroid/os/SystemClock;->elapsedRealtimeNanos()J

@@ -7,7 +7,7 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    invoke-static {}, Lcom/pairip/StartupLauncher;->launch()V
+    #invoke-static {}, Lcom/pairip/StartupLauncher;->launch()V
 
     return-void
 .end method

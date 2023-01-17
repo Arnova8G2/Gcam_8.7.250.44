@@ -144,25 +144,7 @@
 .method public declared-synchronized a(Ldjp;)Lnee;
     .locals 5
 
-    const v0, 0x2
-
-    new-array v2, v0, [Ljava/lang/Object;
-
-    const v0, 0x0
-
-    aput-object p0, v2, v0
-
-    const v0, 0x1
-
-    aput-object p1, v2, v0
-
-    const-string/jumbo v1, "ut5qPjc79iJUovdC"
-
-    invoke-static {v1, v2}, Lcom/pairip/VMRunner;->invoke(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;
-
-    move-result-object v1
-
-    check-cast v1, Lnee;
+    const v1, 0x0
 
     return-object v1
 .end method
