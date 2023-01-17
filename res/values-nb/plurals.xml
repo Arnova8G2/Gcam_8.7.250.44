@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="photos_remaining">
+        <item quantity="other">Om lag %s bilder</item>
+        <item quantity="one">Om lag %s bilde</item>
+    </plurals>
+    <plurals name="social_apps_selected">
+        <item quantity="other">(%1$d apper er valgt)</item>
+        <item quantity="one">(%1$d app er valgt)</item>
+    </plurals>
+    <plurals name="social_share_info">
+        <item quantity="other">Del bilder og videoer raskt i sosiale apper, fra Kamera. Velg opptil %1$d apper. Bilder og videoer som lagres i Låst mappe, kan ikke deles.</item>
+        <item quantity="one">Del bilder og videoer raskt i sosiale apper, fra Kamera. Velg %1$d-appen. Bilder og videoer som lagres i Låst mappe, kan ikke deles.</item>
+    </plurals>
+    <plurals name="social_share_select_error">
+        <item quantity="other">Velg opptil %1$d apper</item>
+        <item quantity="one">Velg %1$d app</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item quantity="other">%dd</item>
+        <item quantity="one">%dd</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item quantity="other">%dt</item>
+        <item quantity="one">%dt</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item quantity="other">%dm</item>
+        <item quantity="one">%dm</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item quantity="other">%d dager</item>
+        <item quantity="one">%d dag</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item quantity="other">%d timer</item>
+        <item quantity="one">%d time</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="videos_remaining">
+        <item quantity="other">%s minutter med videoer</item>
+        <item quantity="one">%s minutt med videoer</item>
+    </plurals>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.apps.camera.ui.popupmenu.PopupMenuView
+        android:layout_gravity="bottom|center|right"
+        android:id="@id/mars_menu_view"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent" />
+</merge>

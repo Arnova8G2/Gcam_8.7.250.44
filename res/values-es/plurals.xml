@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="photos_remaining">
+        <item quantity="other">Aproximadamente %s fotos</item>
+        <item quantity="one">Aproximadamente %s foto</item>
+    </plurals>
+    <plurals name="social_apps_selected">
+        <item quantity="other">(%1$d aplicaciones seleccionadas)</item>
+        <item quantity="one">(%1$d aplicación seleccionada)</item>
+    </plurals>
+    <plurals name="social_share_info">
+        <item quantity="other">Comparte rápidamente fotos y vídeos en aplicaciones sociales desde Cámara. Elige hasta %1$d aplicaciones. Las fotos y los vídeos guardados en Carpeta privada no se pueden compartir.</item>
+        <item quantity="one">Comparte rápidamente fotos y vídeos en aplicaciones sociales desde Cámara. Elige %1$d aplicación. Las fotos y los vídeos guardados en Carpeta privada no se pueden compartir.</item>
+    </plurals>
+    <plurals name="social_share_select_error">
+        <item quantity="other">Puedes elegir hasta %1$d aplicaciones</item>
+        <item quantity="one">Puedes elegir %1$d aplicación</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item quantity="other">%dd</item>
+        <item quantity="one">%dd</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item quantity="other">%dh</item>
+        <item quantity="one">%dh</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item quantity="other">%dm</item>
+        <item quantity="one">%dm</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item quantity="other">%d días</item>
+        <item quantity="one">%d día</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item quantity="other">%d horas</item>
+        <item quantity="one">%d hora</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="videos_remaining">
+        <item quantity="other">Aproximadamente %s minutos de vídeo</item>
+        <item quantity="one">Aproximadamente %s minuto de vídeo</item>
+    </plurals>
+</resources>

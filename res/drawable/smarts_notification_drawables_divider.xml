@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <size
+        android:height="0.0dip"
+        android:width="@dimen/smarts_notification_drawables_divider_width" />
+</shape>

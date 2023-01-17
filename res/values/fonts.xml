@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="font" name="settingslib_config_headlineFontFamily">@font/google_sans</item>
+</resources>

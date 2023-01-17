@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="photos_remaining">
+        <item quantity="other">ປະມານ %s ຮູບ</item>
+        <item quantity="one">ປະມານ %s ຮູບ</item>
+    </plurals>
+    <plurals name="social_apps_selected">
+        <item quantity="other">(ເລືອກ %1$d ແອັບແລ້ວ)</item>
+        <item quantity="one">(ເລືອກ %1$d ແອັບແລ້ວ)</item>
+    </plurals>
+    <plurals name="social_share_info">
+        <item quantity="other">ແບ່ງປັນຮູບພາບ ແລະ ວິດີໂອຢູ່ແອັບສັງຄົມໄດ້ຢ່າງວ່ອງໄວຈາກກ້ອງຖ່າຍຮູບ. ເລືອກໄດ້ສູງສຸດ %1$d ແອັບ. ຮູບພາບ ແລະ ວິດີໂອທີ່ຖືກບັນທຶກໄປໃສ່ໂຟນເດີທີ່ລັອກໄວ້ແມ່ນບໍ່ສາມາດແບ່ງປັນໄດ້.</item>
+        <item quantity="one">ແບ່ງປັນຮູບພາບ ແລະ ວິດີໂອຢູ່ແອັບສັງຄົມໄດ້ຢ່າງວ່ອງໄວຈາກກ້ອງຖ່າຍຮູບ. ເລືອກ %1$d ແອັບ. ຮູບພາບ ແລະ ວິດີໂອທີ່ຖືກບັນທຶກໄປໃສ່ໂຟນເດີທີ່ລັອກໄວ້ແມ່ນບໍ່ສາມາດແບ່ງປັນໄດ້.</item>
+    </plurals>
+    <plurals name="social_share_select_error">
+        <item quantity="other">ເລືອກໄດ້ສູງສຸດ %1$d ແອັບ</item>
+        <item quantity="one">ເລືອກ %1$d ແອັບ</item>
+    </plurals>
+    <plurals name="videos_remaining">
+        <item quantity="other">ວິດີໂອ %s ນາທີ</item>
+        <item quantity="one">ວິດີໂອ %s ນາທີ</item>
+    </plurals>
+</resources>

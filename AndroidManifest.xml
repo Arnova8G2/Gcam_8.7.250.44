@@ -1,0 +1,915 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    android:compileSdkVersion="33"
+    android:compileSdkVersionCodename="UpsideDownCake"
+    package="com.google.android.GoogleCamera"
+    platformBuildVersionCode="33"
+    platformBuildVersionName="UpsideDownCake"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-feature
+        android:name="android.hardware.camera.level.full"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.location"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location.network"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.faketouch"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.microphone"
+        android:required="true" />
+    <uses-feature
+        android:name="com.google.android.feature.GOOGLE_EXPERIENCE"
+        android:required="true" />
+    <supports-screens
+        android:anyDensity="true"
+        android:smallScreens="false"
+        android:normalScreens="true"
+        android:largeScreens="true" />
+    <queries>
+        <intent>
+            <action
+                android:name="android.intent.action.SEND" />
+            <data
+                android:mimeType="image/*" />
+        </intent>
+        <intent>
+            <action
+                android:name="android.intent.action.SEND" />
+            <data
+                android:mimeType="video/*" />
+        </intent>
+        <package
+            android:name="com.google.android.apps.camera.poseidon" />
+        <package
+            android:name="com.google.vr.apps.ornament" />
+        <package
+            android:name="com.google.ar.core" />
+        <intent>
+            <action
+                android:name="android.intent.action.VIEW" />
+            <data
+                android:scheme="tel" />
+        </intent>
+        <intent>
+            <action
+                android:name="android.intent.action.VIEW" />
+            <data
+                android:mimeType="text/plain" />
+        </intent>
+        <intent>
+            <action
+                android:name="android.intent.action.VIEW" />
+            <data
+                android:scheme="geo" />
+        </intent>
+        <intent>
+            <action
+                android:name="android.intent.action.VIEW" />
+            <data
+                android:scheme="http" />
+        </intent>
+        <intent>
+            <action
+                android:name="android.intent.action.VIEW" />
+            <data
+                android:scheme="https" />
+        </intent>
+        <intent>
+            <action
+                android:name="android.intent.action.VIEW" />
+            <data
+                android:scheme="FIDO" />
+        </intent>
+        <intent>
+            <action
+                android:name="android.intent.action.VIEW" />
+            <data
+                android:scheme="shc" />
+        </intent>
+        <intent>
+            <action
+                android:name="android.intent.action.VIEW" />
+            <data
+                android:scheme="LPA" />
+        </intent>
+        <intent>
+            <action
+                android:name="android.intent.action.INSERT_OR_EDIT" />
+            <data
+                android:mimeType="vnd.android.cursor.item/*" />
+        </intent>
+        <intent>
+            <action
+                android:name="android.intent.action.INSERT" />
+            <data
+                android:mimeType="vnd.android.cursor.item/*" />
+        </intent>
+        <intent>
+            <action
+                android:name="android.intent.action.SEARCH" />
+        </intent>
+        <package
+            android:name="com.google.android.apps.tips" />
+    </queries>
+    <uses-permission
+        android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission
+        android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission
+        android:name="android.permission.CAMERA" />
+    <uses-permission
+        android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission
+        android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.GET_PACKAGE_SIZE" />
+    <uses-permission
+        android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission
+        android:name="android.permission.NFC" />
+    <uses-permission
+        android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission
+        android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission
+        android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission
+        android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission
+        android:name="android.permission.VIBRATE" />
+    <uses-permission
+        android:name="android.permission.WAKE_LOCK" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission
+        android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission
+        android:name="android.permission.READ_MEDIA_VIDEO" />
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission
+        android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <uses-permission
+        android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission
+        android:name="android.permission.HIGH_SAMPLING_RATE_SENSORS" />
+    <uses-permission
+        android:name="android.permission.INSTALL_PACKAGE_UPDATES" />
+    <uses-feature
+        android:name="android.hardware.camera" />
+    <application
+        android:theme="@style/Theme.Camera"
+        android:label="@string/app_name"
+        android:icon="@mipmap/adaptiveproduct_pixelcamera"
+        android:name="com.pairip.application.Application"
+        android:taskAffinity=""
+        android:backupAgent="com.google.android.apps.camera.backup.CameraBackupAgent"
+        android:allowBackup="true"
+        android:restoreAnyVersion="true"
+        android:hardwareAccelerated="true"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:fullBackupOnly="false"
+        android:extractNativeLibs="false"
+        android:usesCleartextTraffic="false"
+        android:gwpAsanMode="never">
+        <uses-library
+            android:name="com.google.android.gestureservice"
+            android:required="false" />
+        <uses-library
+            android:name="com.google.android.camera2"
+            android:required="false" />
+        <uses-library
+            android:name="com.google.android.camera.experimental2015"
+            android:required="false" />
+        <uses-library
+            android:name="com.google.android.camera.experimental2016"
+            android:required="false" />
+        <uses-library
+            android:name="com.google.android.camera.experimental2017"
+            android:required="false" />
+        <uses-library
+            android:name="com.google.android.camera.experimental2018"
+            android:required="false" />
+        <uses-library
+            android:name="com.google.android.camera.experimental2019"
+            android:required="false" />
+        <uses-library
+            android:name="com.google.android.camera.experimental2020"
+            android:required="false" />
+        <uses-library
+            android:name="com.google.android.camera.experimental2020_midyear"
+            android:required="false" />
+        <uses-library
+            android:name="com.google.android.camera.experimental2021"
+            android:required="false" />
+        <uses-library
+            android:name="com.google.android.camera.experimental2022"
+            android:required="false" />
+        <uses-native-library
+            android:name="libgxp.so"
+            android:required="false" />
+        <uses-native-library
+            android:name="libedgetpu_util.so"
+            android:required="false" />
+        <uses-native-library
+            android:name="libedgetpu_client.google.so"
+            android:required="false" />
+        <uses-native-library
+            android:name="lib_aion_buffer.so"
+            android:required="false" />
+        <uses-native-library
+            android:name="libOpenCL-pixel.so"
+            android:required="false" />
+        <uses-native-library
+            android:name="libqdMetaData.so"
+            android:required="false" />
+        <uses-native-library
+            android:name="libairbrush-pixel.so"
+            android:required="false" />
+        <uses-native-library
+            android:name="libadsprpc.so"
+            android:required="false" />
+        <uses-native-library
+            android:name="libcdsprpc.so"
+            android:required="false" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.android.support.v8.renderscript.EnableAsyncTeardown"
+            android:value="true" />
+        <meta-data
+            android:name="com.google.android.apps.camera.filmstrip.GlideConfiguration"
+            android:value="GlideModule" />
+        <receiver
+            android:name="com.google.android.apps.camera.camerafatalerror.BootCompleteReceiver"
+            android:exported="true">
+            <intent-filter
+                android:priority="999">
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED" />
+                <action
+                    android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme="@style/Theme.Camera"
+            android:name="com.google.android.apps.camera.legacy.app.activity.main.CameraActivity"
+            android:exported="false"
+            android:clearTaskOnLaunch="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="user"
+            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan"
+            android:resizeableActivity="false"
+            android:turnScreenOn="true" />
+        <activity-alias
+            android:name="com.android.camera.CameraLauncher"
+            android:exported="true"
+            android:targetActivity="com.google.android.apps.camera.legacy.app.activity.main.CameraActivity">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+                <category
+                    android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <meta-data
+                android:name="android.app.shortcuts"
+                android:resource="@xml/shortcuts" />
+        </activity-alias>
+        <activity
+            android:theme="@style/Theme.Camera"
+            android:name="com.google.android.apps.camera.legacy.app.activity.SecureCameraActivity"
+            android:exported="false"
+            android:taskAffinity="com.google.android.apps.camera.legacy.app.activity.SecureCameraActivity"
+            android:clearTaskOnLaunch="true"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="user"
+            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan"
+            android:resizeableActivity="false"
+            android:showWhenLocked="true"
+            android:turnScreenOn="true">
+            <meta-data
+                android:name="android.media.still_image_camera_preview_service"
+                android:value="com.google.android.apps.camera.prewarm.NoOpPrewarmService" />
+        </activity>
+        <activity-alias
+            android:name="com.android.camera.SecureCameraActivity"
+            android:exported="true"
+            android:targetActivity="com.google.android.apps.camera.legacy.app.activity.SecureCameraActivity">
+            <intent-filter>
+                <action
+                    android:name="android.media.action.STILL_IMAGE_CAMERA_SECURE" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+                <category
+                    android:name="android.intent.category.VOICE" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="android.media.action.IMAGE_CAPTURE_SECURE" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data
+                android:name="android.media.still_image_camera_preview_service"
+                android:value="com.google.android.apps.camera.prewarm.NoOpPrewarmService" />
+        </activity-alias>
+        <activity
+            android:theme="@style/Theme.Camera"
+            android:name="com.google.android.apps.camera.legacy.app.activity.main.CameraVoiceActivity"
+            android:exported="false"
+            android:taskAffinity="com.google.android.apps.camera.legacy.app.activity.main.CameraVoiceActivity"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="user"
+            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan"
+            android:resizeableActivity="false"
+            android:turnScreenOn="true" />
+        <activity
+            android:theme="@style/Theme.AppCompat.NoDisplay"
+            android:name="com.google.android.apps.camera.legacy.app.activity.CameraImageActivity"
+            android:exported="false"
+            android:resizeableActivity="false"
+            android:visibleToInstantApps="true" />
+        <activity-alias
+            android:name="com.android.camera.CameraImageActivity"
+            android:exported="true"
+            android:targetActivity="com.google.android.apps.camera.legacy.app.activity.CameraImageActivity"
+            android:visibleToInstantApps="true">
+            <intent-filter>
+                <action
+                    android:name="android.media.action.STILL_IMAGE_CAMERA" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+                <category
+                    android:name="android.intent.category.VOICE" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="android.media.action.STILL_IMAGE_CAMERA" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+                <category
+                    android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:scheme="launch-camera"
+                    android:host="com.google.android.GoogleCamera"
+                    android:path="/still-image" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:name="com.android.camera.CameraVideoShortcutActivity"
+            android:exported="true"
+            android:targetActivity="com.google.android.apps.camera.legacy.app.activity.CameraImageActivity">
+            <intent-filter>
+                <action
+                    android:name="android.media.action.VIDEO_CAMERA" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+                <category
+                    android:name="android.intent.category.VOICE" />
+            </intent-filter>
+        </activity-alias>
+        <activity
+            android:theme="@style/Theme.Camera"
+            android:name="com.google.android.apps.camera.legacy.app.activity.CaptureActivity"
+            android:exported="false"
+            android:screenOrientation="user"
+            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan"
+            android:visibleToInstantApps="true" />
+        <activity-alias
+            android:label="@string/image_intent_label"
+            android:name="com.android.camera.activity.CaptureActivity"
+            android:exported="true"
+            android:targetActivity="com.google.android.apps.camera.legacy.app.activity.CaptureActivity"
+            android:visibleToInstantApps="true">
+            <intent-filter>
+                <action
+                    android:name="android.media.action.IMAGE_CAPTURE" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:label="@string/video_intent_label"
+            android:name="com.android.camera.VideoCamera"
+            android:exported="true"
+            android:screenOrientation="user"
+            android:targetActivity="com.google.android.apps.camera.legacy.app.activity.CaptureActivity"
+            android:visibleToInstantApps="true">
+            <intent-filter>
+                <action
+                    android:name="android.media.action.VIDEO_CAPTURE" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity-alias>
+        <activity
+            android:theme="@android:style/Theme.NoDisplay"
+            android:name="com.google.android.apps.camera.legacy.app.activity.CameraDeepLinkActivity"
+            android:exported="false"
+            android:resizeableActivity="false"
+            android:visibleToInstantApps="true" />
+        <activity-alias
+            android:name="com.android.camera.CameraDeepLinkActivity"
+            android:exported="true"
+            android:targetActivity="com.google.android.apps.camera.legacy.app.activity.CameraDeepLinkActivity"
+            android:visibleToInstantApps="true">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.VIEW" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+                <category
+                    android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:host="store.google.com"
+                    android:path="/product/pixelcamerateam1" />
+                <data
+                    android:scheme="http" />
+                <data
+                    android:scheme="https" />
+            </intent-filter>
+        </activity-alias>
+        <activity
+            android:theme="@style/Theme.CameraSettings"
+            android:label="@string/mode_settings"
+            android:name="com.google.android.apps.camera.legacy.app.settings.CameraSettingsActivity"
+            android:exported="true"
+            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize" />
+        <activity
+            android:theme="@style/Theme.CameraMaterialSettings"
+            android:label="@string/mode_settings"
+            android:name="com.google.android.apps.camera.legacy.app.settings.CameraMaterialSettingsActivity"
+            android:exported="false"
+            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize" />
+        <service
+            android:name="com.google.android.apps.camera.app.silentfeedback.SilentFeedbackService"
+            android:exported="false"
+            android:process=":crash_report" />
+        <provider
+            android:name="com.google.android.apps.camera.debug.contentprovider.DebugContentProvider"
+            android:exported="true"
+            android:authorities="com.google.android.GoogleCamera.DebugContentProvider" />
+        <provider
+            android:name="com.google.android.apps.camera.debug.shottracker.db.DbDebugDumper"
+            android:exported="true"
+            android:authorities="com.google.android.GoogleCamera.DbDebugDumper" />
+        <provider
+            android:name="com.google.android.apps.camera.debug.metrics.MetricsProvider"
+            android:exported="true"
+            android:authorities="com.google.android.GoogleCamera.MetricsProvider" />
+        <provider
+            android:name="com.google.android.apps.camera.cameravisionkit.ScanDocumentBitmapFileProvider"
+            android:exported="false"
+            android:authorities="com.google.android.GoogleCamera.fileprovider"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+        <meta-data
+            android:name="com.google.android.gms.phenotype.registration.xml:com.google.android.apps.camera"
+            android:resource="@xml/com_google_android_apps_camera_phenotype_release" />
+        <service
+            android:name="com.google.android.libraries.phenotype.registration.PhenotypeMetadataHolderService"
+            android:enabled="false"
+            android:exported="false"
+            android:process="">
+            <intent-filter>
+                <action
+                    android:name="com.google.android.libraries.phenotype.registration.PhenotypeMetadataHolderService" />
+            </intent-filter>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.registration.binarypb:com.google.android.apps.camera"
+                android:resource="@raw/com_google_android_apps_camera_registration_info_release" />
+            <meta-data
+                android:name="com.google.android.gms.phenotype.registration.binarypb:com.google.android.gms.clearcut_client"
+                android:resource="@raw/com_google_android_gms_clearcut_client_registration_info" />
+            <meta-data
+                android:name="com.google.android.gms.phenotype.registration.binarypb:com.google.android.libraries.consentverifier"
+                android:resource="@raw/com_google_android_libraries_consentverifier_registration_info" />
+            <meta-data
+                android:name="com.google.android.gms.phenotype.heterodyne_info.binarypb:com.google.android.libraries.performance.primes"
+                android:resource="@raw/com_google_android_libraries_performance_primes_heterodyne_info" />
+            <meta-data
+                android:name="com.google.android.gms.phenotype.registration.binarypb:com.google.android.libraries.performance.primes"
+                android:resource="@raw/com_google_android_libraries_performance_primes_registration_info" />
+        </service>
+        <meta-data
+            android:name="com.google.android.gms.phenotype.registration.xml:com.google.android.gms.clearcut_client"
+            android:resource="@xml/com_google_android_gms_clearcut_client_phenotype" />
+        <meta-data
+            android:name="com.google.android.gms.phenotype.registration.xml:com.google.android.libraries.consentverifier"
+            android:resource="@xml/com_google_android_libraries_consentverifier_phenotype" />
+        <meta-data
+            android:name="com.google.android.gms.phenotype.registration.xml:com.google.android.libraries.performance.primes"
+            android:resource="@xml/com_google_android_libraries_performance_primes_phenotype" />
+        <meta-data
+            android:name="com.google.android.backup.api_key"
+            android:value="AEdPqrEAAAAIAtBj1ElOYwhIB-X9XDJr91_j0tTe8PPt6pZmnw" />
+        <service
+            android:name="com.google.android.apps.camera.brella.examplestore.beholder.BeholderExampleStoreDataTtlService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.apps.camera.brella.examplestore.beholder.BeholderExampleStoreService"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action
+                    android:name="com.google.android.gms.learning.EXAMPLE_STORE" />
+            </intent-filter>
+            <intent-filter
+                android:priority="-100">
+                <action
+                    android:name="com.google.android.gms.learning.EXAMPLE_STORE_V2" />
+                <data
+                    android:scheme="app" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.google.android.apps.camera.brella.mediastore.MediaListeningService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:enabled="true"
+            android:exported="false" />
+        <meta-data
+            android:name="com.android.device.restriction"
+            android:value="           brand=google, deviceName=coral;           brand=google, deviceName=flame;           brand=google, deviceName=sunfish;           brand=google, deviceName=bramble;           brand=google, deviceName=redfin;           brand=google, deviceName=barbet;           brand=google, deviceName=raven;           brand=google, deviceName=oriole;           brand=google, deviceName=bluejay;           brand=google, deviceName=cheetah;           brand=google, deviceName=panther;" />
+        <provider
+            android:name="com.google.android.apps.camera.contentprovider.CameraContentProvider"
+            android:exported="true"
+            android:authorities="com.google.android.apps.camera.specialtypes.SpecialTypesProvider"
+            android:syncable="false" />
+        <provider
+            android:name="com.google.android.apps.camera.legacy.app.settings.CameraSearchIndexablesProvider"
+            android:permission="android.permission.READ_SEARCH_INDEXABLES"
+            android:enabled="true"
+            android:exported="true"
+            android:multiprocess="false"
+            android:authorities="com.google.android.GoogleCamera"
+            android:grantUriPermissions="true">
+            <intent-filter>
+                <action
+                    android:name="android.content.action.SEARCH_INDEXABLES_PROVIDER" />
+            </intent-filter>
+        </provider>
+        <receiver
+            android:name="com.google.android.apps.camera.keepalive.KeepAliveBroadcastReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED" />
+                <action
+                    android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.google.android.apps.camera.keepalive.ProcessGcService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:exported="true" />
+        <service
+            android:name="com.google.android.apps.camera.prewarm.ProcessingBoostService"
+            android:exported="true" />
+        <service
+            android:name="com.google.android.apps.camera.prewarm.NoOpPrewarmService"
+            android:exported="true" />
+        <service
+            android:name="com.google.android.apps.camera.processing.ProcessingService"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.apps.camera.remotecontrol.RemoteControlService"
+            android:exported="true" />
+        <receiver
+            android:name="com.google.android.apps.camera.sideline.SidelineBroadcastReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.google.android.apps.camera.sideline.SidelineInstallerService"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.apps.camera.sideline.SidelineJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.apps.camera.testing.prod.ScorePrintService"
+            android:exported="true">
+            <intent-filter>
+                <category
+                    android:name="android.intent.category.TEST" />
+            </intent-filter>
+        </service>
+        <activity
+            android:theme="@style/Theme.SecureVideoPlayer"
+            android:label="VideoPlayer"
+            android:name="com.google.android.apps.camera.videoplayer.VideoPlayerActivity"
+            android:launchMode="standard"
+            android:showWhenLocked="true" />
+        <service
+            android:name="com.google.android.apps.camera.wear.wearv2.DataLayerListenerService"
+            android:exported="true">
+            <intent-filter>
+                <action
+                    android:name="com.google.android.gms.wearable.MESSAGE_RECEIVED" />
+                <data
+                    android:scheme="wear"
+                    android:host="*"
+                    android:pathPrefix="/start-activity" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="com.google.android.gms.wearable.BIND_LISTENER" />
+            </intent-filter>
+        </service>
+        <receiver
+            android:name="com.google.android.apps.camera.wear.wearv2.InstallWearRequestReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action
+                    android:name="com.google.android.apps.camera.wear.INSTALL_WEAR" />
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme="@style/Theme.PlayCore.Transparent"
+            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+            android:exported="false"
+            android:stateNotNeeded="true" />
+        <receiver
+            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.gms.analytics.AnalyticsService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.gms.analytics.AnalyticsJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:enabled="true"
+            android:exported="false" />
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:exported="false"
+            android:excludeFromRecents="true" />
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+            android:exported="true"
+            android:visibleToInstantApps="true" />
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false" />
+        <provider
+            android:name="com.google.android.gms.learning.internal.BackgroundProcessDetectorContentProvider"
+            android:exported="false"
+            android:process=":learning_bg"
+            android:multiprocess="false"
+            android:authorities="com.google.android.GoogleCamera.brella.trainingservice.provider"
+            android:initOrder="0x7fffffff" />
+        <service
+            android:name="com.google.android.gms.learning.internal.training.InAppJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.gms.learning.internal.training.InAppTrainingService"
+            android:enabled="true"
+            android:exported="false"
+            android:process=":learning_bg">
+            <intent-filter>
+                <action
+                    android:name="com.google.android.gms.learning.training.START" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.google.android.libraries.performance.primes.federatedlearning.PrimesExampleStoreDataTtlService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.libraries.performance.primes.federatedlearning.PrimesExampleStoreService"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action
+                    android:name="com.google.android.gms.learning.EXAMPLE_STORE_V2" />
+                <data
+                    android:scheme="app"
+                    android:host="*"
+                    android:pathPrefix="/primes/" />
+            </intent-filter>
+        </service>
+        <receiver
+            android:name="com.google.android.libraries.performance.primes.transmitter.LifeboatReceiver"
+            android:exported="false"
+            android:process=":primes_lifeboat" />
+        <receiver
+            android:name="com.google.android.libraries.phenotype.client.stable.AccountRemovedBroadcastReceiver"
+            android:exported="true"
+            android:process="">
+            <intent-filter>
+                <action
+                    android:name="android.accounts.action.ACCOUNT_REMOVED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.android.libraries.phenotype.client.stable.PhenotypeUpdateBackgroundBroadcastReceiver"
+            android:permission="com.google.android.gms.permission.PHENOTYPE_UPDATE_BROADCAST"
+            android:exported="true"
+            android:process="">
+            <intent-filter>
+                <action
+                    android:name="com.google.android.gms.phenotype.UPDATE" />
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme="@style/Theme.AppCompat.DayNight"
+            android:label="@string/preferences_license_title"
+            android:name="com.google.android.libraries.social.licenses.LicenseMenuActivity"
+            android:exported="true" />
+        <activity
+            android:theme="@style/Theme.AppCompat.DayNight"
+            android:label="@string/preferences_license_title"
+            android:name="com.google.android.libraries.social.licenses.LicenseActivity"
+            android:exported="false" />
+        <receiver
+            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+            android:permission="android.permission.DUMP"
+            android:enabled="true"
+            android:exported="true"
+            android:directBootAware="false">
+            <intent-filter>
+                <action
+                    android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="androidx.profileinstaller.action.SKIP_FILE" />
+            </intent-filter>
+        </receiver>
+        <uses-library
+            android:name="androidx.window.extensions"
+            android:required="false" />
+        <uses-library
+            android:name="androidx.window.sidecar"
+            android:required="false" />
+        <service
+            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+            android:enabled="@bool/enable_system_alarm_service_default"
+            android:exported="false"
+            android:directBootAware="false" />
+        <service
+            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:enabled="@bool/enable_system_job_service_default"
+            android:exported="true"
+            android:directBootAware="false" />
+        <service
+            android:name="androidx.work.impl.foreground.SystemForegroundService"
+            android:enabled="@bool/enable_system_foreground_service_default"
+            android:exported="false"
+            android:directBootAware="false" />
+        <receiver
+            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+            android:enabled="true"
+            android:exported="false"
+            android:directBootAware="false" />
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action
+                    android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.BATTERY_OKAY" />
+                <action
+                    android:name="android.intent.action.BATTERY_LOW" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+                <action
+                    android:name="android.intent.action.DEVICE_STORAGE_OK" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED" />
+                <action
+                    android:name="android.intent.action.TIME_SET" />
+                <action
+                    android:name="android.intent.action.TIMEZONE_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+            android:enabled="@bool/enable_system_alarm_service_default"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action
+                    android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+            android:permission="android.permission.DUMP"
+            android:enabled="true"
+            android:exported="true"
+            android:directBootAware="false">
+            <intent-filter>
+                <action
+                    android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+            </intent-filter>
+        </receiver>
+        <uses-library
+            android:name="com.google.android.wearable"
+            android:required="false" />
+        <service
+            android:name="com.google.android.build.data.PropertiesServiceHolder"
+            android:enabled="false"
+            android:exported="false"
+            android:process="">
+            <intent-filter>
+                <action
+                    android:name="com.google.android.build.data.Properties" />
+            </intent-filter>
+            <meta-data
+                android:name="com.google.android.build.data.properties"
+                android:resource="@raw/build_data" />
+        </service><meta-data android:name="com.android.stamp.type" android:value="STAMP_TYPE_STANDALONE_APK" />
+    <meta-data android:name="com.android.dynamic.apk.fused.modules" android:value="base,camera_vkp_asset_module,deeprestore_split_module,hdrplus_asset_module_p21,imax_split_module,l2l_asset_module,lightcycle_asset_module,motion_blur_asset_module_p21,portrait_asset_module,smartcapture_split_module,smartzoom_split_module,startup_jni_split_module" />
+</application>
+</manifest>

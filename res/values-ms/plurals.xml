@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="photos_remaining">
+        <item quantity="other">Kira-kira %s foto</item>
+        <item quantity="one">Kira-kira %s foto</item>
+    </plurals>
+    <plurals name="social_apps_selected">
+        <item quantity="other">(%1$d apl dipilih)</item>
+        <item quantity="one">(%1$d apl dipilih)</item>
+    </plurals>
+    <plurals name="social_share_info">
+        <item quantity="other">Kongsi foto dan video pada apl sosial dengan pantas daripada Kamera. Pilih hingga %1$d apl. Foto dan video yang disimpan pada Folder Dikunci tidak dapat dikongsi.</item>
+        <item quantity="one">Kongsi foto dan video pada apl sosial dengan pantas daripada Kamera. Pilih apl %1$d. Foto dan video yang disimpan pada Folder Dikunci tidak boleh dikongsi.</item>
+    </plurals>
+    <plurals name="social_share_select_error">
+        <item quantity="other">Pilih sehingga %1$d apl</item>
+        <item quantity="one">Pilih %1$d apl</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item quantity="other">%dh</item>
+        <item quantity="one">%dh</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item quantity="other">%dj</item>
+        <item quantity="one">%dj</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item quantity="other">%dm</item>
+        <item quantity="one">%dm</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item quantity="other">%d hari</item>
+        <item quantity="one">%d hari</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item quantity="other">%d jam</item>
+        <item quantity="one">%d jam</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="videos_remaining">
+        <item quantity="other">%s minit video</item>
+        <item quantity="one">%s minit video</item>
+    </plurals>
+</resources>

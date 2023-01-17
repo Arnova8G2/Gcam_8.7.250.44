@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="photos_remaining">
+        <item quantity="other">%s argazki inguru</item>
+        <item quantity="one">%s argazki inguru</item>
+    </plurals>
+    <plurals name="social_apps_selected">
+        <item quantity="other">(%1$d aplikazio hautatu dira)</item>
+        <item quantity="one">(%1$d aplikazio hautatu da)</item>
+    </plurals>
+    <plurals name="social_share_info">
+        <item quantity="other">Partekatu argazkiak eta bideoak aplikazio sozialetan kameratik zuzenean. Aukeratu gehienez %1$d aplikazio. Ezingo dituzu partekatu karpeta blokeatuan gordetako argazkiak eta bideoak.</item>
+        <item quantity="one">Partekatu argazkiak eta bideoak aplikazio sozialetan kameratik zuzenean. Aukeratu %1$d aplikazio. Ezingo dituzu partekatu karpeta blokeatuan gordetako argazkiak eta bideoak.</item>
+    </plurals>
+    <plurals name="social_share_select_error">
+        <item quantity="other">Aukeratu %1$d aplikazio</item>
+        <item quantity="one">Aukeratu %1$d aplikazio</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item quantity="other">%d e.</item>
+        <item quantity="one">%d e.</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item quantity="other">%d h</item>
+        <item quantity="one">%d h</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item quantity="other">%d egun</item>
+        <item quantity="one">%d egun</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item quantity="other">%d ordu</item>
+        <item quantity="one">%d ordu</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="videos_remaining">
+        <item quantity="other">%s minutu bideoentzat</item>
+        <item quantity="one">%s minutu bideoentzat</item>
+    </plurals>
+</resources>

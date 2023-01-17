@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners
+        android:radius="@dimen/mcfly_export_hdr_shot_corner_radius" />
+    <solid
+        android:color="@color/export_hdr_shot_background_color" />
+    <padding
+        android:left="16.0dip"
+        android:top="8.0dip"
+        android:right="16.0dip"
+        android:bottom="8.0dip" />
+</shape>

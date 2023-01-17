@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="photos_remaining">
+        <item quantity="other">Околу %s фотографии</item>
+        <item quantity="one">Околу %s фотографија</item>
+    </plurals>
+    <plurals name="social_apps_selected">
+        <item quantity="other">(избрани се %1$d апликации)</item>
+        <item quantity="one">(избрана е %1$d апликација)</item>
+    </plurals>
+    <plurals name="social_share_info">
+        <item quantity="other">Брзо споделувајте фотографии и видеа на друштвените апликации од „Камерата“. Изберете до %1$d апликации. Фотографиите и видеата зачувани во „Заклучената папка“ не може да се споделуваат.</item>
+        <item quantity="one">Брзо споделувајте фотографии и видеа на друштвените апликации од „Камерата“. Изберете до %1$d апликација. Фотографиите и видеата зачувани во „Заклучената папка“ не може да се споделуваат.</item>
+    </plurals>
+    <plurals name="social_share_select_error">
+        <item quantity="other">Изберете најмногу %1$d апликации</item>
+        <item quantity="one">Изберете најмногу %1$d апликација</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item quantity="other">%d д.</item>
+        <item quantity="one">%d д.</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item quantity="other">%d ч.</item>
+        <item quantity="one">%d ч.</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item quantity="other">%d м.</item>
+        <item quantity="one">%d м.</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item quantity="other">%d дена</item>
+        <item quantity="one">%d ден</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item quantity="other">%d часа</item>
+        <item quantity="one">%d час</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item quantity="other">%d мин.</item>
+        <item quantity="one">%d мин.</item>
+    </plurals>
+    <plurals name="videos_remaining">
+        <item quantity="other">Видеа од %s минути</item>
+        <item quantity="one">Видеа од %s минута</item>
+    </plurals>
+</resources>

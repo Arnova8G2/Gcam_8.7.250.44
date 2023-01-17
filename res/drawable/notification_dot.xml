@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/notification_dot_shadow"
+        android:left="0.0dip"
+        android:top="0.0dip"
+        android:right="0.0dip"
+        android:bottom="0.0dip" />
+    <item
+        android:id="@id/notification_dot_foreground"
+        android:drawable="@drawable/notification_dot_foreground"
+        android:left="2.0dip"
+        android:top="2.0dip"
+        android:right="2.0dip"
+        android:bottom="2.0dip" />
+</layer-list>

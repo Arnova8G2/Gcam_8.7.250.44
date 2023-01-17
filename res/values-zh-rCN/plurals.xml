@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="photos_remaining">
+        <item quantity="other">大约 %s 张照片</item>
+        <item quantity="one">大约 %s 张照片</item>
+    </plurals>
+    <plurals name="social_apps_selected">
+        <item quantity="other">（已选择 %1$d 个应用）</item>
+        <item quantity="one">（已选择 %1$d 个应用）</item>
+    </plurals>
+    <plurals name="social_share_info">
+        <item quantity="other">从相机中快速将照片和视频分享到社交应用。最多可选择 %1$d 个应用。保存到“已锁定的文件夹”的照片和视频无法分享。</item>
+        <item quantity="one">从相机中快速将照片和视频分享到社交应用。最多可选择 %1$d 个应用。保存到“已锁定的文件夹”的照片和视频无法分享。</item>
+    </plurals>
+    <plurals name="social_share_select_error">
+        <item quantity="other">最多可选择 %1$d 个应用</item>
+        <item quantity="one">选择 %1$d 个应用</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item quantity="other">%d天</item>
+        <item quantity="one">%d天</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item quantity="other">%d小时</item>
+        <item quantity="one">%d小时</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item quantity="other">%d分钟</item>
+        <item quantity="one">%d分钟</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item quantity="other">%d 天</item>
+        <item quantity="one">%d 天</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item quantity="other">%d 小时</item>
+        <item quantity="one">%d 小时</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item quantity="other">%d 分钟</item>
+        <item quantity="one">%d 分钟</item>
+    </plurals>
+    <plurals name="videos_remaining">
+        <item quantity="other">%s 分钟的视频</item>
+        <item quantity="one">%s 分钟的视频</item>
+    </plurals>
+</resources>

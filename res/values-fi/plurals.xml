@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="photos_remaining">
+        <item quantity="other">Tietoja %s kuvasta</item>
+        <item quantity="one">Tietoja %s kuvasta</item>
+    </plurals>
+    <plurals name="social_apps_selected">
+        <item quantity="other">(%1$d sovellusta valittu)</item>
+        <item quantity="one">(%1$d sovellus valittu)</item>
+    </plurals>
+    <plurals name="social_share_info">
+        <item quantity="other">Jaa kuvia ja videoita nopeasti some-sovelluksiin Kamerasta. Valitse enintään %1$d sovellusta. Lukittuun kansioon tallennettuja kuvia ja videoita ei voi jakaa.</item>
+        <item quantity="one">Jaa kuvia ja videoita nopeasti some-sovelluksiin Kamerasta. Valitse %1$d sovellus. Lukittuun kansioon tallennettuja kuvia ja videoita ei voi jakaa.</item>
+    </plurals>
+    <plurals name="social_share_select_error">
+        <item quantity="other">Valitse enintään %1$d sovellusta</item>
+        <item quantity="one">Valitse %1$d sovellus</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item quantity="other">%dp</item>
+        <item quantity="one">%dp</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item quantity="other">%dt</item>
+        <item quantity="one">%dt</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item quantity="other">%dm</item>
+        <item quantity="one">%dm</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item quantity="other">%d pv</item>
+        <item quantity="one">%d pv</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item quantity="other">%d t</item>
+        <item quantity="one">%d t</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="videos_remaining">
+        <item quantity="other">%s minuuttia videoita</item>
+        <item quantity="one">%s minuutti videoita</item>
+    </plurals>
+</resources>

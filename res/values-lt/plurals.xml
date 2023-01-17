@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="photos_remaining">
+        <item quantity="other">Maždaug %s nuotraukų</item>
+        <item quantity="one">Maždaug %s nuotrauka</item>
+        <item quantity="few">Maždaug %s nuotraukos</item>
+        <item quantity="many">Maždaug %s nuotraukos</item>
+    </plurals>
+    <plurals name="social_apps_selected">
+        <item quantity="other">(pasirinkta %1$d programų)</item>
+        <item quantity="one">(pasirinkta %1$d programa)</item>
+        <item quantity="few">(pasirinktos %1$d programos)</item>
+        <item quantity="many">(pasirinkta %1$d programos)</item>
+    </plurals>
+    <plurals name="social_share_info">
+        <item quantity="other">Sparčiai bendrinkite nuotraukas ir vaizdo įrašus socialinėse programose iš Fotoaparato programos. Pasirinkite iki %1$d programų. Užrakintame aplanke išsaugotų nuotraukų ir vaizdo įrašų bendrinti negalima.</item>
+        <item quantity="one">Sparčiai bendrinkite nuotraukas ir vaizdo įrašus socialinėse programose iš Fotoaparato programos. Pasirinkite iki %1$d programos. Užrakintame aplanke išsaugotų nuotraukų ir vaizdo įrašų bendrinti negalima.</item>
+        <item quantity="few">Sparčiai bendrinkite nuotraukas ir vaizdo įrašus socialinėse programose iš Fotoaparato programos. Pasirinkite iki %1$d programų. Užrakintame aplanke išsaugotų nuotraukų ir vaizdo įrašų bendrinti negalima.</item>
+        <item quantity="many">Sparčiai bendrinkite nuotraukas ir vaizdo įrašus socialinėse programose iš Fotoaparato programos. Pasirinkite iki %1$d programos. Užrakintame aplanke išsaugotų nuotraukų ir vaizdo įrašų bendrinti negalima.</item>
+    </plurals>
+    <plurals name="social_share_select_error">
+        <item quantity="other">Pasirinkite iki %1$d programų</item>
+        <item quantity="one">Pasirinkite iki %1$d programos</item>
+        <item quantity="few">Pasirinkite iki %1$d programų</item>
+        <item quantity="many">Pasirinkite iki %1$d programos</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item quantity="other">%d d.</item>
+        <item quantity="one">%d d.</item>
+        <item quantity="few">%d d.</item>
+        <item quantity="many">%d d.</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item quantity="other">%d val.</item>
+        <item quantity="one">%d val.</item>
+        <item quantity="few">%d val.</item>
+        <item quantity="many">%d val.</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item quantity="other">%d min.</item>
+        <item quantity="one">%d min.</item>
+        <item quantity="few">%d min.</item>
+        <item quantity="many">%d min.</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item quantity="other">%d dienų</item>
+        <item quantity="one">%d diena</item>
+        <item quantity="few">%d dienos</item>
+        <item quantity="many">%d dienos</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item quantity="other">%d valandų</item>
+        <item quantity="one">%d valanda</item>
+        <item quantity="few">%d valandos</item>
+        <item quantity="many">%d valandos</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item quantity="other">%d minučių</item>
+        <item quantity="one">%d minutė</item>
+        <item quantity="few">%d minutės</item>
+        <item quantity="many">%d minutės</item>
+    </plurals>
+    <plurals name="videos_remaining">
+        <item quantity="other">%s vaizdo įrašo minučių</item>
+        <item quantity="one">%s vaizdo įrašo minutė</item>
+        <item quantity="few">%s vaizdo įrašo minutės</item>
+        <item quantity="many">%s vaizdo įrašo minutės</item>
+    </plurals>
+</resources>

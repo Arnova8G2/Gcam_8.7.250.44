@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="photos_remaining">
+        <item quantity="other">Ойролцоогоор %s зураг</item>
+        <item quantity="one">Ойролцоогоор %s зураг</item>
+    </plurals>
+    <plurals name="social_apps_selected">
+        <item quantity="other">(%1$d апп сонгосон)</item>
+        <item quantity="one">(%1$d апп сонгосон)</item>
+    </plurals>
+    <plurals name="social_share_info">
+        <item quantity="other">Камераас зураг болон видеог сошиал аппууд дээр шуурхай хуваалцаарай. %1$d хүртэлх апп сонгоно уу. Түгжсэн фолдерт хадгалсан зураг болон видеог хуваалцах боломжгүй.</item>
+        <item quantity="one">Камераас зураг болон видеог сошиал аппууд дээр шуурхай хуваалцаарай. %1$d аппыг сонгоно уу. Түгжсэн фолдерт хадгалсан зураг болон видеог хуваалцах боломжгүй.</item>
+    </plurals>
+    <plurals name="social_share_select_error">
+        <item quantity="other">%1$d хүртэлх апп сонгоно уу</item>
+        <item quantity="one">%1$d апп сонгоно уу</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item quantity="other">%dө</item>
+        <item quantity="one">%dө</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item quantity="other">%dц</item>
+        <item quantity="one">%dц</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item quantity="other">%dм</item>
+        <item quantity="one">%dм</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item quantity="other">%d өдөр</item>
+        <item quantity="one">%d өдөр</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item quantity="other">%d цаг</item>
+        <item quantity="one">%d цаг</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item quantity="other">%d мин</item>
+        <item quantity="one">%d мин</item>
+    </plurals>
+    <plurals name="videos_remaining">
+        <item quantity="other">%s минутын видео</item>
+        <item quantity="one">%s минутын видео</item>
+    </plurals>
+</resources>

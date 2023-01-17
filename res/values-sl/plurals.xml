@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="photos_remaining">
+        <item quantity="other">Približno %s fotografij</item>
+        <item quantity="one">Približno %s fotografija</item>
+        <item quantity="two">Približno %s fotografiji</item>
+        <item quantity="few">Približno %s fotografije</item>
+    </plurals>
+    <plurals name="social_apps_selected">
+        <item quantity="other">(Izbranih je %1$d aplikacij)</item>
+        <item quantity="one">(Izbrana je %1$d aplikacija)</item>
+        <item quantity="two">(Izbrani sta %1$d aplikaciji)</item>
+        <item quantity="few">(Izbrane so %1$d aplikacije)</item>
+    </plurals>
+    <plurals name="social_share_info">
+        <item quantity="other">Hitro deljenje fotografij in videoposnetkov v družbenih aplikacijah iz Fotoaparata. Izberete lahko največ %1$d aplikacij. Fotografij in videoposnetkov, shranjenih v Zaklenjeno mapo, ni mogoče deliti z drugimi.</item>
+        <item quantity="one">Hitro deljenje fotografij in videoposnetkov v družbenih aplikacijah iz Fotoaparata. Izberete lahko največ %1$d aplikacijo. Fotografij in videoposnetkov, shranjenih v Zaklenjeno mapo, ni mogoče deliti z drugimi.</item>
+        <item quantity="two">Hitro deljenje fotografij in videoposnetkov v družbenih aplikacijah iz Fotoaparata. Izberete lahko največ %1$d aplikaciji. Fotografij in videoposnetkov, shranjenih v Zaklenjeno mapo, ni mogoče deliti z drugimi.</item>
+        <item quantity="few">Hitro deljenje fotografij in videoposnetkov v družbenih aplikacijah iz Fotoaparata. Izberete lahko največ %1$d aplikacije. Fotografij in videoposnetkov, shranjenih v Zaklenjeno mapo, ni mogoče deliti z drugimi.</item>
+    </plurals>
+    <plurals name="social_share_select_error">
+        <item quantity="other">Izberete lahko največ %1$d aplikacij</item>
+        <item quantity="one">Izberete lahko največ %1$d aplikacijo</item>
+        <item quantity="two">Izberete lahko največ %1$d aplikaciji</item>
+        <item quantity="few">Izberete lahko največ %1$d aplikacije</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item quantity="other">%d d</item>
+        <item quantity="one">%d d</item>
+        <item quantity="two">%d d</item>
+        <item quantity="few">%d d</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item quantity="other">%d h</item>
+        <item quantity="one">%d h</item>
+        <item quantity="two">%d h</item>
+        <item quantity="few">%d h</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+        <item quantity="two">%d min</item>
+        <item quantity="few">%d min</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item quantity="other">%d dni</item>
+        <item quantity="one">%d dan</item>
+        <item quantity="two">%d dneva</item>
+        <item quantity="few">%d dnevi</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item quantity="other">%d ur</item>
+        <item quantity="one">%d ura</item>
+        <item quantity="two">%d uri</item>
+        <item quantity="few">%d ure</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item quantity="other">%d minut</item>
+        <item quantity="one">%d minuta</item>
+        <item quantity="two">%d minuti</item>
+        <item quantity="few">%d minute</item>
+    </plurals>
+    <plurals name="videos_remaining">
+        <item quantity="other">%s minut videoposnetkov</item>
+        <item quantity="one">%s minuta videoposnetkov</item>
+        <item quantity="two">%s minuti videoposnetkov</item>
+        <item quantity="few">%s minute videoposnetkov</item>
+    </plurals>
+</resources>

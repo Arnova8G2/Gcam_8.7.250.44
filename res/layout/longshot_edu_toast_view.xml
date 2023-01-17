@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/longshot_edu_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18.0dip"
+        android:src="@drawable/ic_ls_useredu_portrait"
+        android:layout_marginVertical="18.0dip" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12.0dip"
+        android:layout_marginRight="18.0dip"
+        android:layout_marginVertical="24.0dip">
+        <TextView
+            android:textSize="14.0dip"
+            android:textColor="@color/google_white"
+            android:id="@id/longshot_edu_zoom_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/longshot_edu_panel_zoom"
+            android:fontFamily="@font/google_sans_compat"
+            android:textAlignment="center"
+            android:lineHeight="20.0dip" />
+        <Space
+            android:layout_width="20.0dip"
+            android:layout_height="20.0dip" />
+        <TextView
+            android:textSize="14.0dip"
+            android:textColor="@color/google_white"
+            android:layout_gravity="bottom"
+            android:id="@id/longshot_edu_handsfree_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/longshot_edu_panel_lock"
+            android:fontFamily="@font/google_sans_compat"
+            android:textAlignment="center"
+            android:lineHeight="20.0dip" />
+    </LinearLayout>
+</LinearLayout>

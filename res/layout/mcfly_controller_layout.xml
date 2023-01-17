@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline
+        android:orientation="horizontal"
+        android:id="@id/mcfly_bottom_bar_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_begin="575.0dip" />
+    <androidx.constraintlayout.widget.Guideline
+        android:orientation="horizontal"
+        android:id="@id/mcfly_mode_switch_ui_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_begin="700.0dip" />
+    <com.google.android.apps.camera.rewind.RewindExportShotView
+        android:gravity="center"
+        android:id="@id/mcfly_export_hdr_shot"
+        android:background="@drawable/mcfly_export_shot_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:measureAllChildren="false"
+        android:inAnimation="@anim/fade_overshoot_in"
+        android:outAnimation="@anim/fade_anticipate_out"
+        android:animateFirstView="false"
+        app:layout_constraintBottom_toBottomOf="@id/mcfly_bottom_bar_center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/mcfly_bottom_bar_center">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/mcfly_export_hdr_shot_button_text"
+            style="@style/mcfly_export_shot_widget_text_style" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/mcfly_export_shot_button_text"
+            style="@style/mcfly_export_shot_widget_text_style" />
+    </com.google.android.apps.camera.rewind.RewindExportShotView>
+    <com.google.android.apps.camera.rewind.RewindThumbnailScrollView
+        android:orientation="horizontal"
+        android:id="@id/mcfly_thumbnail_scroller"
+        android:scrollbars="none"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toTopOf="@id/mcfly_mode_switch_ui_bottom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+        <LinearLayout
+            android:orientation="vertical"
+            android:focusable="false"
+            android:clickable="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <FrameLayout
+                android:id="@id/mcfly_high_quality_indicator_container"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/mcfly_high_quality_thumbnail_container_height"
+                android:layout_marginBottom="@dimen/mcfly_high_quality_thumbnail_dot_length" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@id/mcfly_thumbnails"
+                android:background="@drawable/mcfly_thumbnails_background"
+                android:focusable="false"
+                android:clickable="false"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/mcfly_thumbnails_height" />
+        </LinearLayout>
+    </com.google.android.apps.camera.rewind.RewindThumbnailScrollView>
+    <FrameLayout
+        android:layout_gravity="center"
+        android:id="@id/mcfly_selection_bar"
+        android:background="@drawable/mcfly_selection_bar_background"
+        android:focusable="false"
+        android:clickable="false"
+        android:layout_width="@dimen/mcfly_selection_bar_width"
+        android:layout_height="@dimen/mcfly_selection_bar_height"
+        android:layout_marginTop="@dimen/mcfly_selection_bar_top_margin"
+        app:layout_constraintBottom_toBottomOf="@id/mcfly_thumbnail_scroller"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/mcfly_thumbnail_scroller" />
+</androidx.constraintlayout.widget.ConstraintLayout>
