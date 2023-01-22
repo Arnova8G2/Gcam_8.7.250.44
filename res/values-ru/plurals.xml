@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="photos_remaining">
+        <item quantity="other">Примерно %s фотографии</item>
+        <item quantity="one">Примерно %s фотография</item>
+        <item quantity="few">Примерно %s фотографии</item>
+        <item quantity="many">Примерно %s фотографий</item>
+    </plurals>
+    <plurals name="social_apps_selected">
+        <item quantity="other">(выбрано %1$d приложения)</item>
+        <item quantity="one">(выбрано %1$d приложение)</item>
+        <item quantity="few">(выбрано %1$d приложения)</item>
+        <item quantity="many">(выбрано %1$d приложений)</item>
+    </plurals>
+    <plurals name="social_share_info">
+        <item quantity="other">Делитесь фотографиями и видео прямо из Камеры. Выберите не более %1$d приложения. Отправлять файлы из личной папки нельзя.</item>
+        <item quantity="one">Делитесь фотографиями и видео прямо из Камеры. Выберите не более %1$d приложения. Отправлять файлы из личной папки нельзя.</item>
+        <item quantity="few">Делитесь фотографиями и видео прямо из Камеры. Выберите не более %1$d приложений. Отправлять файлы из личной папки нельзя.</item>
+        <item quantity="many">Делитесь фотографиями и видео прямо из Камеры. Выберите не более %1$d приложений. Отправлять файлы из личной папки нельзя.</item>
+    </plurals>
+    <plurals name="social_share_select_error">
+        <item quantity="other">Можно выбрать не более %1$d приложения.</item>
+        <item quantity="one">Можно выбрать не более %1$d приложения.</item>
+        <item quantity="few">Можно выбрать не более %1$d приложений.</item>
+        <item quantity="many">Можно выбрать не более %1$d приложений.</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item quantity="other">%d д</item>
+        <item quantity="one">%d д</item>
+        <item quantity="few">%d д</item>
+        <item quantity="many">%d д</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item quantity="other">%d ч</item>
+        <item quantity="one">%d ч</item>
+        <item quantity="few">%d ч</item>
+        <item quantity="many">%d ч</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item quantity="other">%d м</item>
+        <item quantity="one">%d м</item>
+        <item quantity="few">%d м</item>
+        <item quantity="many">%d м</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item quantity="other">%d дн.</item>
+        <item quantity="one">%d дн.</item>
+        <item quantity="few">%d дн.</item>
+        <item quantity="many">%d дн.</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item quantity="other">%d ч.</item>
+        <item quantity="one">%d ч.</item>
+        <item quantity="few">%d ч.</item>
+        <item quantity="many">%d ч.</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item quantity="other">%d мин.</item>
+        <item quantity="one">%d мин.</item>
+        <item quantity="few">%d мин.</item>
+        <item quantity="many">%d мин.</item>
+    </plurals>
+    <plurals name="videos_remaining">
+        <item quantity="other">%s минуты видео</item>
+        <item quantity="one">%s минута видео</item>
+        <item quantity="few">%s минуты видео</item>
+        <item quantity="many">%s минут видео</item>
+    </plurals>
+</resources>

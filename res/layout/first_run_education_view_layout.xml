@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/first_run_contents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16.0dip">
+        <RelativeLayout
+            android:id="@id/location_entry"
+            android:layout_width="fill_parent"
+            android:layout_height="48.0dip">
+            <ImageView
+                android:id="@id/location_icon"
+                android:layout_width="@dimen/camera_settings_icon_size"
+                android:layout_height="@dimen/camera_settings_icon_size"
+                android:src="@drawable/quantum_gm_ic_room_white_24"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/camera_settings_entry_left_margin" />
+            <TextView
+                android:textColor="@color/google_white"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="@string/record_location_notification"
+                android:layout_marginStart="@dimen/camera_settings_entry_left_margin"
+                android:layout_toStartOf="@id/settings_btn"
+                android:layout_toEndOf="@id/location_icon" />
+            <TextView
+                android:textColor="?colorPrimary"
+                android:gravity="center_vertical"
+                android:id="@id/settings_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="@string/mode_settings"
+                android:layout_marginStart="@dimen/camera_settings_entry_left_margin"
+                android:layout_marginEnd="@dimen/camera_settings_entry_left_margin"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@id/motion_entry"
+            android:layout_width="fill_parent"
+            android:layout_height="48.0dip">
+            <ImageView
+                android:id="@id/motion_icon"
+                android:layout_width="@dimen/camera_settings_icon_size"
+                android:layout_height="@dimen/camera_settings_icon_size"
+                android:src="@drawable/quantum_gm_ic_motion_photos_auto_white_24"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/camera_settings_entry_left_margin" />
+            <RelativeLayout
+                android:gravity="center_vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginStart="@dimen/camera_settings_entry_left_margin"
+                android:layout_marginEnd="12.0dip"
+                android:layout_toStartOf="@id/options_btn"
+                android:layout_toEndOf="@id/motion_icon">
+                <TextView
+                    android:textColor="@color/google_white"
+                    android:gravity="center_vertical"
+                    android:id="@id/motion_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:text="@string/toast_motion_text"
+                    android:paddingEnd="24.0dip" />
+                <ImageView
+                    android:id="@id/motion_help"
+                    android:layout_width="18.0dip"
+                    android:layout_height="18.0dip"
+                    android:src="@drawable/help_outline"
+                    android:tint="@color/google_white"
+                    android:layout_centerVertical="true"
+                    android:contentDescription="@string/toast_help_text"
+                    android:layout_marginStart="4.0dip"
+                    android:layout_alignEnd="@id/motion_text" />
+            </RelativeLayout>
+            <TextView
+                android:textColor="?colorPrimary"
+                android:gravity="center_vertical"
+                android:id="@id/options_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="@string/toast_options"
+                android:layout_marginEnd="@dimen/camera_settings_entry_left_margin"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</merge>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="photos_remaining">
+        <item quantity="other">Około %s zdjęcia</item>
+        <item quantity="one">Około %s zdjęcia</item>
+        <item quantity="few">Około %s zdjęć</item>
+        <item quantity="many">Około %s zdjęć</item>
+    </plurals>
+    <plurals name="social_apps_selected">
+        <item quantity="other">(wybrano %1$d aplikacji)</item>
+        <item quantity="one">(wybrano %1$d aplikację)</item>
+        <item quantity="few">(wybrano %1$d aplikacje)</item>
+        <item quantity="many">(wybrano %1$d aplikacji)</item>
+    </plurals>
+    <plurals name="social_share_info">
+        <item quantity="other">Szybko dziel się zdjęciami i filmami w aplikacjach społecznościowych – prosto z Aparatu. Wybierz maksymalnie %1$d aplikacji. Zdjęć i filmów zapisanych w Folderze zamkniętym nie można udostępniać.</item>
+        <item quantity="one">Szybko dziel się zdjęciami i filmami w aplikacjach społecznościowych – prosto z Aparatu. Wybierz %1$d aplikację. Zdjęć i filmów zapisanych w Folderze zamkniętym nie można udostępniać.</item>
+        <item quantity="few">Szybko dziel się zdjęciami i filmami w aplikacjach społecznościowych – prosto z Aparatu. Wybierz maksymalnie %1$d aplikacje. Zdjęć i filmów zapisanych w Folderze zamkniętym nie można udostępniać.</item>
+        <item quantity="many">Szybko dziel się zdjęciami i filmami w aplikacjach społecznościowych – prosto z Aparatu. Wybierz maksymalnie %1$d aplikacji. Zdjęć i filmów zapisanych w Folderze zamkniętym nie można udostępniać.</item>
+    </plurals>
+    <plurals name="social_share_select_error">
+        <item quantity="other">Możesz korzystać maksymalnie z %1$d aplikacji</item>
+        <item quantity="one">Możesz korzystać tylko z %1$d aplikacji</item>
+        <item quantity="few">Możesz korzystać maksymalnie z %1$d aplikacji</item>
+        <item quantity="many">Możesz korzystać maksymalnie z %1$d aplikacji</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item quantity="other">%d d</item>
+        <item quantity="one">%d d</item>
+        <item quantity="few">%d d</item>
+        <item quantity="many">%d d</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item quantity="other">%d g</item>
+        <item quantity="one">%d g</item>
+        <item quantity="few">%d g</item>
+        <item quantity="many">%d g</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item quantity="other">%d m</item>
+        <item quantity="one">%d m</item>
+        <item quantity="few">%d m</item>
+        <item quantity="many">%d m</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item quantity="other">%d dnia</item>
+        <item quantity="one">%d dzień</item>
+        <item quantity="few">%d dni</item>
+        <item quantity="many">%d dni</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item quantity="other">%d godz.</item>
+        <item quantity="one">%d godz.</item>
+        <item quantity="few">%d godz.</item>
+        <item quantity="many">%d godz.</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+        <item quantity="few">%d min</item>
+        <item quantity="many">%d min</item>
+    </plurals>
+    <plurals name="videos_remaining">
+        <item quantity="other">%s minuty filmów</item>
+        <item quantity="one">%s minuta filmów</item>
+        <item quantity="few">%s minuty filmów</item>
+        <item quantity="many">%s minut filmów</item>
+    </plurals>
+</resources>

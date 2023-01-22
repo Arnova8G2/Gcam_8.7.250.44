@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="photos_remaining">
+        <item quantity="other">Cirka %s foton</item>
+        <item quantity="one">Cirka %s foto</item>
+    </plurals>
+    <plurals name="social_apps_selected">
+        <item quantity="other">(%1$d appar har valts)</item>
+        <item quantity="one">(%1$d app har valts)</item>
+    </plurals>
+    <plurals name="social_share_info">
+        <item quantity="other">Dela snabbt foton och videor i sociala appar med Kamera. Välj upp till %1$d appar. Det går inte att dela foton och videor som har sparats i Låst mapp.</item>
+        <item quantity="one">Dela snabbt foton och videor i sociala appar med Kamera. Välj %1$d app. Det går inte att dela foton och videor som har sparats i Låst mapp.</item>
+    </plurals>
+    <plurals name="social_share_select_error">
+        <item quantity="other">Välj upp till %1$d appar</item>
+        <item quantity="one">Välj %1$d app</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item quantity="other">%d d</item>
+        <item quantity="one">%d d</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item quantity="other">%d tim.</item>
+        <item quantity="one">%d tim.</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item quantity="other">%d dagar</item>
+        <item quantity="one">%d dag</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item quantity="other">%d tim.</item>
+        <item quantity="one">%d tim.</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="videos_remaining">
+        <item quantity="other">%s minuter med videor</item>
+        <item quantity="one">%s minuter med video</item>
+    </plurals>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="photos_remaining">
+        <item quantity="other">Environ %s photos</item>
+        <item quantity="one">Environ %s photo</item>
+    </plurals>
+    <plurals name="social_apps_selected">
+        <item quantity="other">(%1$d applications sélectionnées)</item>
+        <item quantity="one">(%1$d application sélectionnée)</item>
+    </plurals>
+    <plurals name="social_share_info">
+        <item quantity="other">"Partagez rapidement des photos et des vidéos sur les applications de réseaux sociaux à partir d'Appareil photo. Choisissez jusqu'à %1$d applications. Les photos et les vidéos enregistrées dans le dossier verrouillé ne peuvent pas être partagées."</item>
+        <item quantity="one">"Partagez rapidement des photos et des vidéos sur les applications de réseaux sociaux à partir d'Appareil photo. Choisissez jusqu'à %1$d application. Les photos et les vidéos enregistrées dans le dossier verrouillé ne peuvent pas être partagées."</item>
+    </plurals>
+    <plurals name="social_share_select_error">
+        <item quantity="other">"Choisissez jusqu'à %1$d applications"</item>
+        <item quantity="one">"Choisissez jusqu'à %1$d application"</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item quantity="other">%d j</item>
+        <item quantity="one">%d j</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item quantity="other">%d h</item>
+        <item quantity="one">%d h</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item quantity="other">%d m</item>
+        <item quantity="one">%d m</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item quantity="other">%d jours</item>
+        <item quantity="one">%d jour</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item quantity="other">%d heures</item>
+        <item quantity="one">%d heure</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="videos_remaining">
+        <item quantity="other">%s minutes de vidéo</item>
+        <item quantity="one">%s minute de vidéo</item>
+    </plurals>
+</resources>

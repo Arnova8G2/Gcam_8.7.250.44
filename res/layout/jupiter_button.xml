@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageButton
+    android:layout_gravity="center"
+    android:background="@drawable/jupiter_button_background"
+    android:layout_width="@dimen/jupiter_button_diameter"
+    android:layout_height="@dimen/jupiter_button_diameter"
+    android:src="@drawable/ic_jupiter"
+    android:contentDescription="@string/jupiter_button_description"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

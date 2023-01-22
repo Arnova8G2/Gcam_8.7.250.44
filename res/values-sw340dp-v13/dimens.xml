@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bottom_bar_side_content_size">72.0dip</dimen>
+    <dimen name="mode_chip_inset_horizontal">1.0dip</dimen>
+    <dimen name="mode_chip_minWidth">77.0dip</dimen>
+    <dimen name="more_modes_font_size">14.0dip</dimen>
+    <dimen name="more_modes_grid_bottom_padding">21.0dip</dimen>
+    <dimen name="options_menu_label_margin_left">6.0dip</dimen>
+    <dimen name="options_scroll_view_margin">6.0dip</dimen>
+    <dimen name="options_side_padding">4.0dip</dimen>
+    <dimen name="shared_mode_chip_view_inset_horizontal">1.0dip</dimen>
+    <dimen name="shared_mode_chip_view_minWidth">77.0dip</dimen>
+</resources>

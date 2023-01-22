@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="photos_remaining">
+        <item quantity="other">Περίπου %s φωτογραφίες</item>
+        <item quantity="one">Περίπου %s φωτογραφία</item>
+    </plurals>
+    <plurals name="social_apps_selected">
+        <item quantity="other">(επιλέχθηκαν %1$d εφαρμογές)</item>
+        <item quantity="one">(επιλέχθηκε %1$d εφαρμογή)</item>
+    </plurals>
+    <plurals name="social_share_info">
+        <item quantity="other">Κοινοποιήστε γρήγορα φωτογραφίες και βίντεο σε κοινωνικές εφαρμογές από την Κάμερα. Επιλέξτε έως %1$d εφαρμογές. Οι φωτογραφίες και τα βίντεο που είναι αποθηκευμένα στον Κλειδωμένο φάκελο δεν μπορούν να κοινοποιηθούν.</item>
+        <item quantity="one">Κοινοποιήστε γρήγορα φωτογραφίες και βίντεο σε κοινωνικές εφαρμογές από την Κάμερα. Επιλέξτε %1$d εφαρμογή. Οι φωτογραφίες και τα βίντεο που είναι αποθηκευμένα στον Κλειδωμένο φάκελο δεν μπορούν να κοινοποιηθούν.</item>
+    </plurals>
+    <plurals name="social_share_select_error">
+        <item quantity="other">Επιλέξτε έως και %1$d εφαρμογές</item>
+        <item quantity="one">Επιλέξτε %1$d εφαρμογή</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item quantity="other">%dημ.</item>
+        <item quantity="one">%dημ.</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item quantity="other">%dώρ.</item>
+        <item quantity="one">%dώρ.</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item quantity="other">%dλ.</item>
+        <item quantity="one">%dλ.</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item quantity="other">%d ημέρες</item>
+        <item quantity="one">%d ημέρα</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item quantity="other">%d ώρες</item>
+        <item quantity="one">%d ώρα</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item quantity="other">%d λεπτά</item>
+        <item quantity="one">%d λεπτό</item>
+    </plurals>
+    <plurals name="videos_remaining">
+        <item quantity="other">%s λεπτά βίντεο</item>
+        <item quantity="one">%s λεπτό βίντεο</item>
+    </plurals>
+</resources>

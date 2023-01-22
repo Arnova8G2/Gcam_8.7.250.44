@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/mcfly_current_image"
+        android:focusable="false"
+        android:clickable="false"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/mcfly_current_image_content_description" />
+    <com.google.android.apps.camera.ui.views.CaptureAnimationOverlay
+        android:id="@id/capture_animation_overlay"
+        android:focusable="false"
+        android:visibility="gone"
+        android:clickable="false"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</merge>

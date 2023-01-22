@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/search_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <SearchView
+        android:id="@id/search_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:iconifiedByDefault="false"
+        android:queryHint="Search developer flags" />
+</LinearLayout>

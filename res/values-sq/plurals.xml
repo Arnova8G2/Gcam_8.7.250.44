@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="photos_remaining">
+        <item quantity="other">Rreth %s fotografi</item>
+        <item quantity="one">Rreth %s fotografi</item>
+    </plurals>
+    <plurals name="social_apps_selected">
+        <item quantity="other">(U zgjodhën %1$d aplikacione)</item>
+        <item quantity="one">(U zgjodh %1$d aplikacion)</item>
+    </plurals>
+    <plurals name="social_share_info">
+        <item quantity="other">Ndaj me shpejtësi fotografitë dhe videot në aplikacionet sociale nga \"Kamera\". Zgjidh deri në %1$d aplikacione. Fotografitë dhe videot e ruajtura në \"Dosjen e kyçur\" nuk mund të ndahen.</item>
+        <item quantity="one">Ndaj me shpejtësi fotografitë dhe videot në aplikacionet sociale nga \"Kamera\". Zgjidh %1$d aplikacion. Fotografitë dhe videot e ruajtura në \"Dosjen e kyçur\" nuk mund të ndahen.</item>
+    </plurals>
+    <plurals name="social_share_select_error">
+        <item quantity="other">Zgjidh deri në %1$d aplikacione</item>
+        <item quantity="one">Zgjidh %1$d aplikacion</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item quantity="other">%dd</item>
+        <item quantity="one">%dd</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item quantity="other">%do</item>
+        <item quantity="one">%do</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item quantity="other">%dm</item>
+        <item quantity="one">%dm</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item quantity="other">%d ditë</item>
+        <item quantity="one">%d ditë</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item quantity="other">%d orë</item>
+        <item quantity="one">%d orë</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item quantity="other">%d min.</item>
+        <item quantity="one">%d min.</item>
+    </plurals>
+    <plurals name="videos_remaining">
+        <item quantity="other">%s minuta video</item>
+        <item quantity="one">%s minutë video</item>
+    </plurals>
+</resources>

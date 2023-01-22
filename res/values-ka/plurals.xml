@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="photos_remaining">
+        <item quantity="other">დაახლოებით %s ფოტო</item>
+        <item quantity="one">დაახლოებით %s ფოტო</item>
+    </plurals>
+    <plurals name="social_apps_selected">
+        <item quantity="other">(არჩეულია %1$d აპი)</item>
+        <item quantity="one">(არჩეულია %1$d აპი)</item>
+    </plurals>
+    <plurals name="social_share_info">
+        <item quantity="other">სწრაფად გააზიარეთ ფოტოები და ვიდეოები სოციალურ აპებში კამერიდან. აირჩიეთ %1$d-მდე აპი. ჩაკეტილ საქაღალდეში შენახული ფოტოები და ვიდეოები არ გაზიარდება.</item>
+        <item quantity="one">სწრაფად გააზიარეთ ფოტოები და ვიდეოები სოციალურ აპებში კამერიდან. აირჩიეთ %1$d აპი. ჩაკეტილ საქაღალდეში შენახული ფოტოები და ვიდეოები არ გაზიარდება.</item>
+    </plurals>
+    <plurals name="social_share_select_error">
+        <item quantity="other">აირჩიეთ %1$d-მდე აპი</item>
+        <item quantity="one">აირჩიეთ მაქსიმუმ %1$d აპი</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item quantity="other">%dდღე</item>
+        <item quantity="one">%dდღე</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item quantity="other">%dსთ</item>
+        <item quantity="one">%dსთ</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item quantity="other">%dწთ</item>
+        <item quantity="one">%dწთ</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item quantity="other">%d დღე</item>
+        <item quantity="one">%d დღე</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item quantity="other">%d სთ</item>
+        <item quantity="one">%d სთ</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item quantity="other">%d წთ</item>
+        <item quantity="one">%d წთ</item>
+    </plurals>
+    <plurals name="videos_remaining">
+        <item quantity="other">ვიდეოს %s წუთი</item>
+        <item quantity="one">ვიდეოს %s წუთი</item>
+    </plurals>
+</resources>

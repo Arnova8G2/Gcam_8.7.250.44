@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="photos_remaining">
+        <item quantity="other">Yaklaşık %s fotoğraf</item>
+        <item quantity="one">Yaklaşık %s fotoğraf</item>
+    </plurals>
+    <plurals name="social_apps_selected">
+        <item quantity="other">(%1$d uygulama seçildi)</item>
+        <item quantity="one">(%1$d uygulama seçildi)</item>
+    </plurals>
+    <plurals name="social_share_info">
+        <item quantity="other">"Fotoğrafları ve videoları Kamera'dan sosyal uygulamalarda kolayca paylaşın. En fazla %1$d uygulama seçebilirsiniz. Kilitli Klasör'e kaydedilen fotoğraf ve videolar paylaşılamaz."</item>
+        <item quantity="one">"Fotoğrafları ve videoları Kamera'dan sosyal uygulamalarda kolayca paylaşın. %1$d uygulama seçin. Kilitli Klasör'e kaydedilen fotoğraf ve videolar paylaşılamaz."</item>
+    </plurals>
+    <plurals name="social_share_select_error">
+        <item quantity="other">En fazla %1$d uygulama seçebilirsiniz</item>
+        <item quantity="one">%1$d uygulama seçin</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item quantity="other">%d g.</item>
+        <item quantity="one">%d g.</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item quantity="other">%d sa.</item>
+        <item quantity="one">%d sa.</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item quantity="other">%d dk.</item>
+        <item quantity="one">%d dk.</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item quantity="other">%d gün</item>
+        <item quantity="one">%d gün</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item quantity="other">%d saat</item>
+        <item quantity="one">%d saat</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item quantity="other">%d dk.</item>
+        <item quantity="one">%d dk.</item>
+    </plurals>
+    <plurals name="videos_remaining">
+        <item quantity="other">%s dakikalık video</item>
+        <item quantity="one">%s dakikalık video</item>
+    </plurals>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="photos_remaining">
+        <item quantity="other">Մոտ %s լուսանկար</item>
+        <item quantity="one">Մոտ %s լուսանկար</item>
+    </plurals>
+    <plurals name="social_apps_selected">
+        <item quantity="other">(ընտրվել է %1$d հավելված)</item>
+        <item quantity="one">(ընտրվել է %1$d հավելված)</item>
+    </plurals>
+    <plurals name="social_share_info">
+        <item quantity="other">Տեսախցիկից արագ կիսվեք լուսանկարներով և տեսանյութերով սոցիալական հավելվածներում։ Ընտրեք մինչև %1$d հավելված։ Կողպված պանակում պահված լուսանկարներով ու տեսանյութերով հնարավոր չէ կիսվել։</item>
+        <item quantity="one">Տեսախցիկից արագ կիսվեք լուսանկարներով և տեսանյութերով սոցիալական հավելվածներում։ Ընտրեք մինչև %1$d հավելված։ Կողպված պանակում պահված լուսանկարներով ու տեսանյութերով հնարավոր չէ կիսվել։</item>
+    </plurals>
+    <plurals name="social_share_select_error">
+        <item quantity="other">Ընտրեք մինչև %1$d հավելված</item>
+        <item quantity="one">Ընտրեք մինչև %1$d հավելված</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item quantity="other">%d օր</item>
+        <item quantity="one">%d օր</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item quantity="other">%d ժ</item>
+        <item quantity="one">%d ժ</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item quantity="other">%d ր</item>
+        <item quantity="one">%d ր</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item quantity="other">%d օր</item>
+        <item quantity="one">%d օր</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item quantity="other">%d ժամ</item>
+        <item quantity="one">%d ժամ</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item quantity="other">%d րոպե</item>
+        <item quantity="one">%d րոպե</item>
+    </plurals>
+    <plurals name="videos_remaining">
+        <item quantity="other">%s րոպե տեսագրում</item>
+        <item quantity="one">%s րոպե տեսագրում</item>
+    </plurals>
+</resources>

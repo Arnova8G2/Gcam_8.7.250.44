@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="photos_remaining">
+        <item quantity="other">Taxminan %s ta surat</item>
+        <item quantity="one">Taxminan %s ta surat</item>
+    </plurals>
+    <plurals name="social_apps_selected">
+        <item quantity="other">(%1$d ta ilova tanlandi)</item>
+        <item quantity="one">%1$d ta ilova tanlandi</item>
+    </plurals>
+    <plurals name="social_share_info">
+        <item quantity="other">Suratlarva videolarni ijtimoiy tarmoq ilovalariga Kamera orqali ulashing. %1$d tagacha ilova tanlashingiz mumkin. Qulflangan jildga saqlangan suratlar va videolar ulashilmaydi.</item>
+        <item quantity="one">Suratlarva videolarni ijtimoiy tarmoq ilovalariga Kamera orqali ulashing. %1$d ta ilovani tanlang. Qulflangan jildga saqlangan suratlar va videolar ulashilmaydi.</item>
+    </plurals>
+    <plurals name="social_share_select_error">
+        <item quantity="other">%1$d tagacha ilova tanlashingiz mumkin</item>
+        <item quantity="one">%1$d ta ilova tanlashingiz mumkin</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item quantity="other">%d k</item>
+        <item quantity="one">%d k</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item quantity="other">%d st</item>
+        <item quantity="one">%d st</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item quantity="other">%d d</item>
+        <item quantity="one">%d d</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item quantity="other">%d kun</item>
+        <item quantity="one">%d kun</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item quantity="other">%d soat</item>
+        <item quantity="one">%d soat</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item quantity="other">%d daq</item>
+        <item quantity="one">%d daq</item>
+    </plurals>
+    <plurals name="videos_remaining">
+        <item quantity="other">%s daqiqalik video</item>
+        <item quantity="one">%s daqiqalik video</item>
+    </plurals>
+</resources>

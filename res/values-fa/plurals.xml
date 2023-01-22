@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="photos_remaining">
+        <item quantity="other">حدود %s عکس</item>
+        <item quantity="one">حدود %s عکس</item>
+    </plurals>
+    <plurals name="social_apps_selected">
+        <item quantity="other">(%1$d برنامه انتخاب شد)</item>
+        <item quantity="one">(%1$d برنامه انتخاب شد)</item>
+    </plurals>
+    <plurals name="social_share_info">
+        <item quantity="other">عکس‌ها و ویدیوها را به‌سرعت ازطریق «دوربین» در برنامه‌های اجتماعی هم‌رسانی کنید. حداکثر %1$d برنامه انتخاب کنید. عکس‌ها و ویدیوهای ذخیره‌شده در «پوشه محافظت‌شده» را نمی‌توان هم‌رسانی کرد.</item>
+        <item quantity="one">عکس‌ها و ویدیوها را به‌سرعت ازطریق «دوربین» در برنامه‌های اجتماعی هم‌رسانی کنید. حداکثر %1$d برنامه انتخاب کنید. عکس‌ها و ویدیوهای ذخیره‌شده در «پوشه محافظت‌شده» را نمی‌توان هم‌رسانی کرد.</item>
+    </plurals>
+    <plurals name="social_share_select_error">
+        <item quantity="other">حداکثر %1$d برنامه انتخاب کنید</item>
+        <item quantity="one">حداکثر %1$d برنامه انتخاب کنید</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item quantity="other">%d ر</item>
+        <item quantity="one">%d ر</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item quantity="other">%d س</item>
+        <item quantity="one">%d س</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item quantity="other">%d د</item>
+        <item quantity="one">%d د</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item quantity="other">%d روز</item>
+        <item quantity="one">%d روز</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item quantity="other">%d ساعت</item>
+        <item quantity="one">%d ساعت</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item quantity="other">%d دقیقه</item>
+        <item quantity="one">%d دقیقه</item>
+    </plurals>
+    <plurals name="videos_remaining">
+        <item quantity="other">%s دقیقه ویدیو</item>
+        <item quantity="one">%s دقیقه ویدیو</item>
+    </plurals>
+</resources>

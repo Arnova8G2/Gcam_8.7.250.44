@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="photos_remaining">
+        <item quantity="other">લગભગ %s ફોટા</item>
+        <item quantity="one">લગભગ %s ફોટો</item>
+    </plurals>
+    <plurals name="social_apps_selected">
+        <item quantity="other">(%1$d ઍપ પસંદ કરી)</item>
+        <item quantity="one">(%1$d ઍપ પસંદ કરી)</item>
+    </plurals>
+    <plurals name="social_share_info">
+        <item quantity="other">Cameraમાંથી સોશિયલ ઍપ પર ફોટા અને વીડિયો ઝડપથી શેર કરો. વધુમાં વધુ %1$d ઍપ પસંદ કરો. લૉક કરેલા ફોલ્ડરમાં સાચવવામાં આવેલા ફોટા અને વીડિયો શેર કરી શકાતા નથી.</item>
+        <item quantity="one">Cameraમાંથી સોશિયલ ઍપ પર ફોટા અને વીડિયો ઝડપથી શેર કરો. વધુમાં વધુ %1$d ઍપ પસંદ કરો. લૉક કરેલા ફોલ્ડરમાં સાચવવામાં આવેલા ફોટા અને વીડિયો શેર કરી શકાતા નથી.</item>
+    </plurals>
+    <plurals name="social_share_select_error">
+        <item quantity="other">%1$d ઍપ સુધી પસંદ કરો</item>
+        <item quantity="one">%1$d ઍપ સુધી પસંદ કરો</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item quantity="other">%dદિવસ</item>
+        <item quantity="one">%dદિવસ</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item quantity="other">%dકલાક</item>
+        <item quantity="one">%dકલાક</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item quantity="other">%dમિનિટ</item>
+        <item quantity="one">%dમિનિટ</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item quantity="other">%d દિવસ</item>
+        <item quantity="one">%d દિવસ</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item quantity="other">%d કલાક</item>
+        <item quantity="one">%d કલાક</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item quantity="other">%d મિનિટ</item>
+        <item quantity="one">%d મિનિટ</item>
+    </plurals>
+    <plurals name="videos_remaining">
+        <item quantity="other">%s મિનિટનો વીડિયો</item>
+        <item quantity="one">%s મિનિટનો વીડિયો</item>
+    </plurals>
+</resources>

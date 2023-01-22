@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="photos_remaining">
+        <item quantity="other">Körülbelül %s fotó</item>
+        <item quantity="one">Körülbelül %s fotó</item>
+    </plurals>
+    <plurals name="social_apps_selected">
+        <item quantity="other">(%1$d alkalmazás kiválasztva)</item>
+        <item quantity="one">(%1$d alkalmazás kiválasztva)</item>
+    </plurals>
+    <plurals name="social_share_info">
+        <item quantity="other">Gyorsan megoszthat fotókat és videókat a közösségi alkalmazásokban a Fényképezőgépből. Legfeljebb %1$d alkalmazást választhat. A Zárolt mappába mentett fotók és videók nem oszthatók meg.</item>
+        <item quantity="one">Gyorsan megoszthat fotókat és videókat a közösségi alkalmazásokban a Fényképezőgépből. Legfeljebb %1$d alkalmazást választhat. A Zárolt mappába mentett fotók és videók nem oszthatók meg.</item>
+    </plurals>
+    <plurals name="social_share_select_error">
+        <item quantity="other">Legfeljebb %1$d alkalmazást választhat ki</item>
+        <item quantity="one">%1$d alkalmazást választhat ki</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item quantity="other">%dn</item>
+        <item quantity="one">%dn</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item quantity="other">%dh</item>
+        <item quantity="one">%dh</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item quantity="other">%dm</item>
+        <item quantity="one">%dm</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item quantity="other">%d nap</item>
+        <item quantity="one">%d nap</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item quantity="other">%d óra</item>
+        <item quantity="one">%d óra</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item quantity="other">%d perc</item>
+        <item quantity="one">%d perc</item>
+    </plurals>
+    <plurals name="videos_remaining">
+        <item quantity="other">%s percnyi videó</item>
+        <item quantity="one">%s percnyi videó</item>
+    </plurals>
+</resources>

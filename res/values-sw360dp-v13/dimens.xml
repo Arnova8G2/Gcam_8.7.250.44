@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bottom_bar_content_size">102.0dip</dimen>
+    <dimen name="bottom_bar_side_content_size">74.0dip</dimen>
+    <dimen name="mode_chip_inset_horizontal">3.0dip</dimen>
+    <dimen name="mode_chip_minWidth">81.0dip</dimen>
+    <dimen name="more_modes_name_side_margin">4.0dip</dimen>
+    <dimen name="more_modes_name_top_margin">8.0dip</dimen>
+    <dimen name="options_menu_label_margin_left">12.0dip</dimen>
+    <dimen name="options_scroll_view_margin">10.0dip</dimen>
+    <dimen name="options_side_padding">8.0dip</dimen>
+    <dimen name="optionsbar_category_height">44.0dip</dimen>
+    <dimen name="optionsbar_category_width">44.0dip</dimen>
+    <dimen name="shared_mode_chip_view_inset_horizontal">3.0dip</dimen>
+    <dimen name="shared_mode_chip_view_minWidth">81.0dip</dimen>
+    <dimen name="zoom_dot_trans_adjust">0.0dip</dimen>
+    <dimen name="zoom_lock_icon_offset">-24.0dip</dimen>
+    <dimen name="zoom_lock_offset">-48.0dip</dimen>
+    <dimen name="zoom_lock_translation">-56.0dip</dimen>
+    <dimen name="zoom_lock_view_width">184.0dip</dimen>
+    <dimen name="zoom_lock_width">60.0dip</dimen>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="16.0dip"
+    android:layout_marginBottom="28.0dip"
+    android:layout_marginStart="24.0dip"
+    android:layout_marginEnd="24.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:textAppearance="?textAppearanceBody2"
+        android:textColor="?colorOnSurface"
+        android:gravity="center_horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hotshot_bottom_sheet_info" />
+    <androidx.cardview.widget.CardView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24.0dip"
+        app:cardCornerRadius="28.0dip"
+        app:cardElevation="0.0dip">
+        <com.google.android.apps.camera.ui.eduimageview.EduImageView
+            android:id="@id/hotshot_edu_image"
+            android:layout_width="364.0dip"
+            android:layout_height="232.0dip" />
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:textAppearance="?textAppearanceCaption"
+        android:textColor="?colorOnSurface"
+        android:gravity="center_horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28.0dip"
+        android:text="@string/hotshot_bottom_sheet_additional_info" />
+</LinearLayout>

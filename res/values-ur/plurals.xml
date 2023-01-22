@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="photos_remaining">
+        <item quantity="other">%s تصاویر کے بارے میں</item>
+        <item quantity="one">%sتصویر کے بارے میں</item>
+    </plurals>
+    <plurals name="social_apps_selected">
+        <item quantity="other">(%1$d ایپس منتخب کی گئیں)</item>
+        <item quantity="one">(%1$d ایپ منتخب کی گئی)</item>
+    </plurals>
+    <plurals name="social_share_info">
+        <item quantity="other">کیمرے سے فوری طور پر سوشل ایپس پر تصاویر اور ویڈیوز کا اشتراک کریں۔ %1$d ایپس تک منتخب کریں۔ مقفل فولڈر میں محفوظ کردہ تصاویر اور ویڈیوز کا اشتراک نہیں کیا جا سکتا۔</item>
+        <item quantity="one">کیمرے سے فوری طور پر سوشل ایپس پر تصاویر اور ویڈیوز کا اشتراک کریں۔ %1$d ایپ منتخب کریں۔ مقفل فولڈر میں محفوظ کردہ تصاویر اور ویڈیوز کا اشتراک نہیں کیا جا سکتا۔</item>
+    </plurals>
+    <plurals name="social_share_select_error">
+        <item quantity="other">%1$d ایپس تک منتخب کریں</item>
+        <item quantity="one">%1$d ایپ منتخب کریں</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item quantity="other">%d دن</item>
+        <item quantity="one">%d دن</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item quantity="other">%d گھنٹہ</item>
+        <item quantity="one">%d گھنٹہ</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item quantity="other">%d منٹ</item>
+        <item quantity="one">%d منٹ</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item quantity="other">%d دن</item>
+        <item quantity="one">%d دن</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item quantity="other">%d گھنٹے</item>
+        <item quantity="one">%d گھنٹہ</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item quantity="other">%d منٹ</item>
+        <item quantity="one">%d منٹ</item>
+    </plurals>
+    <plurals name="videos_remaining">
+        <item quantity="other">ویڈیوز کے %s منٹس</item>
+        <item quantity="one">ویڈیوز کا %s منٹ</item>
+    </plurals>
+</resources>

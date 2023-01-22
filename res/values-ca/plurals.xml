@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="photos_remaining">
+        <item quantity="other">Informació sobre %s fotos</item>
+        <item quantity="one">Informació sobre %s foto</item>
+    </plurals>
+    <plurals name="social_apps_selected">
+        <item quantity="other">(%1$d aplicacions seleccionades)</item>
+        <item quantity="one">(%1$d aplicació seleccionada)</item>
+    </plurals>
+    <plurals name="social_share_info">
+        <item quantity="other">Comparteix ràpidament fotos i vídeos en aplicacions socials des de Càmera. Tria fins a %1$d aplicacions. Les fotos i els vídeos desats a Carpeta bloquejada no es poden compartir.</item>
+        <item quantity="one">Comparteix ràpidament fotos i vídeos en aplicacions socials des de Càmera. Tria %1$d aplicació. Les fotos i els vídeos desats a Carpeta bloquejada no es poden compartir.</item>
+    </plurals>
+    <plurals name="social_share_select_error">
+        <item quantity="other">Tria fins a %1$d aplicacions</item>
+        <item quantity="one">Tria %1$d aplicació</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item quantity="other">%dd</item>
+        <item quantity="one">%dd</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item quantity="other">%dh</item>
+        <item quantity="one">%dh</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item quantity="other">%dm</item>
+        <item quantity="one">%dm</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item quantity="other">%d dies</item>
+        <item quantity="one">%d dia</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item quantity="other">%d hores</item>
+        <item quantity="one">%d hora</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="videos_remaining">
+        <item quantity="other">%s minuts de vídeo</item>
+        <item quantity="one">%s minut de vídeo</item>
+    </plurals>
+</resources>

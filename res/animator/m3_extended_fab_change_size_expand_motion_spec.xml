@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+        android:interpolator="?motionEasingEmphasizedInterpolator"
+        android:duration="?motionDurationLong2"
+        android:startOffset="0"
+        android:propertyName="width" />
+    <objectAnimator
+        android:interpolator="?motionEasingEmphasizedInterpolator"
+        android:duration="?motionDurationLong2"
+        android:startOffset="0"
+        android:propertyName="height" />
+    <objectAnimator
+        android:interpolator="?motionEasingEmphasizedInterpolator"
+        android:duration="?motionDurationLong2"
+        android:startOffset="0"
+        android:propertyName="paddingStart" />
+    <objectAnimator
+        android:interpolator="?motionEasingEmphasizedInterpolator"
+        android:duration="?motionDurationLong2"
+        android:startOffset="0"
+        android:propertyName="paddingEnd" />
+    <objectAnimator
+        android:interpolator="?motionEasingEmphasizedDecelerateInterpolator"
+        android:duration="?motionDurationShort4"
+        android:startOffset="?motionDurationShort2"
+        android:propertyName="labelOpacity" />
+</set>

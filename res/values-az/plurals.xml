@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="photos_remaining">
+        <item quantity="other">%s foto haqqında</item>
+        <item quantity="one">%s foto haqqında</item>
+    </plurals>
+    <plurals name="social_apps_selected">
+        <item quantity="other">(%1$d tətbiq seçildi)</item>
+        <item quantity="one">(%1$d tətbiq seçildi)</item>
+    </plurals>
+    <plurals name="social_share_info">
+        <item quantity="other">Sosial tətbiqlərdə Kameradan sürətlə fotolar və videolar paylaşın. Maksimum %1$d tətbiq seçin. Kilidli Qovluqda saxlanan foto və videoları paylaşmaq olmur.</item>
+        <item quantity="one">Sosial tətbiqlərdə Kameradan sürətlə fotolar və videolar paylaşın. %1$d tətbiq seçin. Kilidli Qovluqda saxlanan foto və videoları paylaşmaq olmur.</item>
+    </plurals>
+    <plurals name="social_share_select_error">
+        <item quantity="other">Maksimum %1$d tətbiq seçin</item>
+        <item quantity="one">%1$d tətbiq seçin</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item quantity="other">%d gün</item>
+        <item quantity="one">%d gün</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item quantity="other">%d saat</item>
+        <item quantity="one">%d saat</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item quantity="other">%d dəq</item>
+        <item quantity="one">%d dəq</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item quantity="other">%d gün</item>
+        <item quantity="one">%d gün</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item quantity="other">%d saat</item>
+        <item quantity="one">%d saat</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item quantity="other">%d dəq</item>
+        <item quantity="one">%d dəq</item>
+    </plurals>
+    <plurals name="videos_remaining">
+        <item quantity="other">%s dəqiqəlik video</item>
+        <item quantity="one">%s dəqiqəlik video</item>
+    </plurals>
+</resources>

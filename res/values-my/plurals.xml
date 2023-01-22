@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="photos_remaining">
+        <item quantity="other">ဓာတ်ပုံ %s ပုံ ခန့်</item>
+        <item quantity="one">ဓာတ်ပုံ %s ပုံ ခန့်</item>
+    </plurals>
+    <plurals name="social_apps_selected">
+        <item quantity="other">(အက်ပ် %1$d ခုရွေးထားသည်)</item>
+        <item quantity="one">(အက်ပ် %1$d ခုရွေးထားသည်)</item>
+    </plurals>
+    <plurals name="social_share_info">
+        <item quantity="other">‘ကင်မရာ’ မှနေ၍ လူမှုအက်ပ်များသို့ ဓာတ်ပုံနှင့် ဗီဒီယိုများ အမြန်မျှဝေပါ။ အက်ပ် %1$d ခုအထိ ရွေးပါ။ ‘လော့ခ်ချထားသော ဖိုင်တွဲ’ တွင် သိမ်းထားသည့် ဓာတ်ပုံနှင့် ဗီဒီယိုများကို မျှဝေ၍မရပါ။</item>
+        <item quantity="one">‘ကင်မရာ’ မှနေ၍ လူမှုအက်ပ်များသို့ ဓာတ်ပုံနှင့် ဗီဒီယိုများ အမြန်မျှဝေပါ။ အက်ပ် %1$d ခု ရွေးပါ။ ‘လော့ခ်ချထားသော ဖိုင်တွဲ’ တွင် သိမ်းထားသည့် ဓာတ်ပုံနှင့် ဗီဒီယိုများကို မျှဝေ၍မရပါ။</item>
+    </plurals>
+    <plurals name="social_share_select_error">
+        <item quantity="other">အက်ပ် %1$d ခုအထိ ရွေးပါ</item>
+        <item quantity="one">အက်ပ် %1$d ခု ရွေးပါ</item>
+    </plurals>
+    <plurals name="time_difference_short_days">
+        <item quantity="other">%dd</item>
+        <item quantity="one">%dd</item>
+    </plurals>
+    <plurals name="time_difference_short_hours">
+        <item quantity="other">%dh</item>
+        <item quantity="one">%dh</item>
+    </plurals>
+    <plurals name="time_difference_short_minutes">
+        <item quantity="other">%dm</item>
+        <item quantity="one">%dm</item>
+    </plurals>
+    <plurals name="time_difference_words_days">
+        <item quantity="other">%d ရက်</item>
+        <item quantity="one">%d ရက်</item>
+    </plurals>
+    <plurals name="time_difference_words_hours">
+        <item quantity="other">%d နာရီ</item>
+        <item quantity="one">%d နာရီ</item>
+    </plurals>
+    <plurals name="time_difference_words_minutes">
+        <item quantity="other">%d မိနစ်</item>
+        <item quantity="one">%d မိနစ်</item>
+    </plurals>
+    <plurals name="videos_remaining">
+        <item quantity="other">ဗီဒီယိုရိုက်ကူးရန်ကျန်ရှိချိန် %s မိနစ်</item>
+        <item quantity="one">ဗီဒီယိုရိုက်ကူးရန်ကျန်ရှိချိန် %s မိနစ်</item>
+    </plurals>
+</resources>

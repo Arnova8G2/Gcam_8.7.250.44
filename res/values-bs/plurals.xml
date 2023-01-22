@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="photos_remaining">
+        <item quantity="other">Oko %s fotografija</item>
+        <item quantity="one">Oko %s fotografija</item>
+        <item quantity="few">Oko %s fotografije</item>
+    </plurals>
+    <plurals name="social_apps_selected">
+        <item quantity="other">(odabrano je %1$d aplikacija)</item>
+        <item quantity="one">(odabrana je %1$d aplikacija)</item>
+        <item quantity="few">(odabrane su %1$d aplikacije)</item>
+    </plurals>
+    <plurals name="social_share_info">
+        <item quantity="other">Brzo dijelite fotografije i videozapise na društvenim aplikacijama iz Kamere. Odaberite najviše %1$d aplikacija. Nije moguće dijeliti fotografije i videozapise sačuvane u zaključanom folderu.</item>
+        <item quantity="one">Brzo dijelite fotografije i videozapise na društvenim aplikacijama iz Kamere. Odaberite najviše %1$d aplikaciju. Nije moguće dijeliti fotografije i videozapise sačuvane u zaključanom folderu.</item>
+        <item quantity="few">Brzo dijelite fotografije i videozapise na društvenim aplikacijama iz Kamere. Odaberite najviše %1$d aplikacije. Nije moguće dijeliti fotografije i videozapise sačuvane u zaključanom folderu.</item>
+    </plurals>
+    <plurals name="social_share_select_error">
+        <item quantity="other">Odaberite najviše %1$d aplikacija</item>
+        <item quantity="one">Odaberite najviše %1$d aplikaciju</item>
+        <item quantity="few">Odaberite najviše %1$d aplikacije</item>
+    </plurals>
+    <plurals name="videos_remaining">
+        <item quantity="other">%s minuta videozapisa</item>
+        <item quantity="one">%s minut videozapisa</item>
+        <item quantity="few">%s minuta videozapisa</item>
+    </plurals>
+</resources>
