@@ -28,7 +28,7 @@ you want to open a pull request, please read the [open issues](https://github.co
 
 You can also support this project by [becoming a sponsor on GitHub](https://github.com) or by
 making a [**Paypal donation**](https://www.paypal.me/fofy) to ensure this journey continues indefinitely!
-@MDNSSKNGHT ( MadnessKnight ) [**Paypal donation**](https://www.paypal.me)
-@rakinthegreat ( Greatness ) [**Paypal donation**](https://paypal.me/RiadMorshedRezaul)
+- @MDNSSKNGHT ( MadnessKnight ) [**Paypal donation**](https://www.paypal.me)
+- @rakinthegreat ( Greatness ) [**Paypal donation**](https://paypal.me/RiadMorshedRezaul)
 
 Thanks again for your support, it is much appreciated! :pray:
